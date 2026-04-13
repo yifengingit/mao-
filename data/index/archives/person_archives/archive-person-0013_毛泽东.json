@@ -1,0 +1,1397 @@
+{
+  "archive_id": "archive-person-0013",
+  "archive_type": "person_archive",
+  "name": "毛泽东",
+  "aliases": [
+    "中国共产党毛泽东主席",
+    "中央主席",
+    "主席",
+    "主席先生",
+    "我",
+    "我们",
+    "我党",
+    "本书编者",
+    "毛",
+    "毛 泽 东",
+    "毛　泽　东",
+    "毛主席",
+    "毛先生",
+    "毛泽东主席",
+    "毛泽东同志",
+    "毛部"
+  ],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "中共中央主席",
+      "中共领导人",
+      "中国人民革命军事委员会主席",
+      "中国共产党中央委员会主席",
+      "中国共产党主席",
+      "中国共产党员",
+      "中国共产党第一次全国代表大会代表",
+      "中国共产党领导人",
+      "中国领导人",
+      "中国马克思列宁主义者",
+      "中央主席",
+      "主席",
+      "人民领袖",
+      "作者",
+      "军事家",
+      "决策者",
+      "前敌委员会书记",
+      "国家领导人",
+      "思想家",
+      "政治家",
+      "理论家",
+      "谈话者",
+      "边界特委书记",
+      "革命家",
+      "领导人"
+    ],
+    "affiliations": [
+      "中共中央",
+      "中华人民共和国",
+      "中华人民共和国中央人民政府",
+      "中华人民共和国政府",
+      "中国人民解放军",
+      "中国人民革命军事委员会",
+      "中国共产党",
+      "中国共产党中央委员会",
+      "中国政府",
+      "中国红军",
+      "中央",
+      "中央政治局常委",
+      "八路军",
+      "新四军",
+      "红军",
+      "红军第四军",
+      "陕甘宁边区政府"
+    ]
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "杜修经",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-01-article-004"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "袁文才",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-01-article-004"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "王佐",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-01-article-004"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "朱德",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-01-article-006",
+          "mao-volume-04-article-063"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "方志敏",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-01-article-006"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "孔夫子",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-01-article-007"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "马克思",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-01-article-007"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "国民党",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-01-article-011",
+          "mao-volume-02-article-022",
+          "mao-volume-03-article-015",
+          "mao-volume-03-article-017",
+          "mao-volume-03-article-028",
+          "mao-volume-04-article-010",
+          "mao-volume-04-article-010",
+          "mao-volume-04-article-010",
+          "mao-volume-04-article-010",
+          "mao-volume-04-article-010",
+          "mao-volume-04-article-010"
+        ],
+        "confidence": 0.97
+      },
+      {
+        "name": "蒋介石",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-01-article-016",
+          "mao-volume-04-article-005",
+          "mao-volume-04-article-013",
+          "mao-volume-04-article-015",
+          "mao-volume-04-article-017",
+          "mao-volume-04-article-026",
+          "mao-volume-04-article-026",
+          "mao-volume-04-article-051",
+          "mao-volume-04-article-052",
+          "mao-volume-04-article-062",
+          "mao-volume-05-article-039",
+          "mao-volume-05-article-061",
+          "mao-volume-05-article-075",
+          "mao-volume-06-article-023",
+          "mao-volume-06-article-040",
+          "mao-volume-06-article-049",
+          "mao-volume-06-article-059",
+          "mao-volume-07-article-070",
+          "mao-volume-07-article-075"
+        ],
+        "confidence": 0.93
+      },
+      {
+        "name": "斯大林",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-01-article-016",
+          "mao-volume-03-article-009",
+          "mao-volume-03-article-024",
+          "mao-volume-03-article-032",
+          "mao-volume-06-article-028",
+          "mao-volume-06-article-060"
+        ],
+        "confidence": 0.83
+      },
+      {
+        "name": "贝特兰",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-02-article-005"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "孙中山",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-02-article-005",
+          "mao-volume-05-article-002",
+          "mao-volume-05-article-032"
+        ],
+        "confidence": 0.82
+      },
+      {
+        "name": "共产党",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-02-article-008",
+          "mao-volume-02-article-019"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "name": "斯诺",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-02-article-009"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "汪精卫",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-02-article-019"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "国民党政府",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-02-article-022"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "白求恩",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-02-article-026"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "列宁",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-03-article-009",
+          "mao-volume-03-article-022",
+          "mao-volume-05-article-056",
+          "mao-volume-06-article-014",
+          "mao-volume-06-article-015",
+          "mao-volume-06-article-028",
+          "mao-volume-06-article-044",
+          "mao-volume-07-article-010",
+          "mao-volume-07-article-068",
+          "mao-volume-07-article-097"
+        ],
+        "confidence": 0.86
+      },
+      {
+        "name": "鲁迅",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-03-article-009",
+          "mao-volume-07-article-010"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "高尔基",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-03-article-009",
+          "mao-volume-07-article-097"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "日本帝国主义",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-03-article-015"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "孟夫子",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-03-article-022"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "诸葛亮",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-03-article-022"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "陈绍禹",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-03-article-024"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "秦邦宪",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-03-article-024"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "张国焘",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-03-article-024",
+          "mao-volume-06-article-021"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "希特勒",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-03-article-030",
+          "mao-volume-07-article-067"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "赫尔利",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-03-article-032"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "周恩来",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-04-article-005",
+          "mao-volume-05-article-056",
+          "mao-volume-06-article-001",
+          "mao-volume-06-article-006",
+          "mao-volume-06-article-049",
+          "mao-volume-07-article-010",
+          "mao-volume-07-article-012",
+          "mao-volume-07-article-062",
+          "mao-volume-07-article-075",
+          "mao-volume-07-article-079",
+          "mao-volume-07-article-095",
+          "mao-volume-07-article-096",
+          "mao-volume-07-article-097"
+        ],
+        "confidence": 0.91
+      },
+      {
+        "name": "王若飞",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-04-article-005"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "中国共产党",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-04-article-005",
+          "mao-volume-04-article-051",
+          "mao-volume-07-article-058",
+          "mao-volume-07-article-096"
+        ],
+        "confidence": 0.96
+      },
+      {
+        "name": "斯蒂尔",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-04-article-015"
+        ],
+        "confidence": 0.7
+      },
+      {
+        "name": "徐向前",
+        "relation_type": "leader_of",
+        "source_articles": [
+          "mao-volume-04-article-039"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "周士第",
+        "relation_type": "leader_of",
+        "source_articles": [
+          "mao-volume-04-article-039"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "罗瑞卿",
+        "relation_type": "leader_of",
+        "source_articles": [
+          "mao-volume-04-article-039"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "杨成武",
+        "relation_type": "leader_of",
+        "source_articles": [
+          "mao-volume-04-article-039"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "叶剑英",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-04-article-057"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "李宗仁",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-04-article-058"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "金日成",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-05-article-010",
+          "mao-volume-05-article-010",
+          "mao-volume-06-article-001",
+          "mao-volume-06-article-001"
+        ],
+        "confidence": 0.93
+      },
+      {
+        "name": "美国政府",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-05-article-022"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "梁漱溟",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-05-article-044"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "name": "傅作义",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-05-article-044"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "name": "艾森豪威尔",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-05-article-045"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "中国共产党中央委员会",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-05-article-054",
+          "mao-volume-07-article-095"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "name": "胡适",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-05-article-056",
+          "mao-volume-05-article-075"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "王国藩",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-05-article-058"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "杨士惠",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-05-article-060"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "陈毅",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-05-article-070"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "柯庆施",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-05-article-075"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "托洛茨基",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-05-article-076"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "李承晚",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-06-article-001"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "刘少奇",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-06-article-002",
+          "mao-volume-06-article-006",
+          "mao-volume-06-article-060",
+          "mao-volume-07-article-009"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "邓小平",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-06-article-006"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "彭德怀",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-06-article-006",
+          "mao-volume-06-article-024"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "name": "尤金",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-06-article-006",
+          "mao-volume-06-article-014"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "name": "赫鲁晓夫",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-06-article-014"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "曾希圣",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-06-article-014"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "恩格斯",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-06-article-015",
+          "mao-volume-06-article-028",
+          "mao-volume-07-article-097"
+        ],
+        "confidence": 0.77
+      },
+      {
+        "name": "马特",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-06-article-015"
+        ],
+        "confidence": 0.7
+      },
+      {
+        "name": "王明",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-06-article-021",
+          "mao-volume-07-article-005"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "胡乔木",
+        "relation_type": "leader_of",
+        "source_articles": [
+          "mao-volume-06-article-023",
+          "mao-volume-06-article-038"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "name": "吴冷西",
+        "relation_type": "leader_of",
+        "source_articles": [
+          "mao-volume-06-article-023"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "陈云",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-06-article-023",
+          "mao-volume-06-article-036"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "name": "李云仲",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-06-article-024"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "张闻天",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-06-article-024"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "马歇尔",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-06-article-024"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "波立特",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-06-article-027"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "李世民",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-06-article-036"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "陈伯达",
+        "relation_type": "leader_of",
+        "source_articles": [
+          "mao-volume-06-article-038"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "田家英",
+        "relation_type": "leader_of",
+        "source_articles": [
+          "mao-volume-06-article-038"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "康生",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-06-article-043"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "胡开明",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-06-article-043"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "罗隆基",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-06-article-043"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "潘汉年",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-06-article-043",
+          "mao-volume-06-article-044"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "饶漱石",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-06-article-043",
+          "mao-volume-06-article-044"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "肯尼迪",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-06-article-043"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "李先念",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-06-article-044"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "李富春",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-06-article-044"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "薄一波",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-06-article-044"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "铁托",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-06-article-044"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "尼赫鲁",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-06-article-044"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "胡风",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-06-article-044"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "宣统皇帝",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-06-article-044"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "王耀武",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-06-article-044"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "杜聿明",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-06-article-044"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "杜勒斯",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-06-article-049"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "舍马克",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-06-article-049"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "富尔",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-06-article-055"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "王海蓉",
+        "relation_type": "leader_of",
+        "source_articles": [
+          "mao-volume-06-article-057"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "name": "戴高乐",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-06-article-059"
+        ],
+        "confidence": 0.7
+      },
+      {
+        "name": "西园寺公一",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-06-article-059"
+        ],
+        "confidence": 0.7
+      },
+      {
+        "name": "尼克松",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-07-article-001"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "静火",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-07-article-001"
+        ],
+        "confidence": 0.6
+      },
+      {
+        "name": "林彪",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-07-article-003",
+          "mao-volume-07-article-031"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "彭真",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-07-article-008"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "吴晗",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-07-article-008"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "胡志明",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-07-article-009"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "李固",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-07-article-010"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "黄琼",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-07-article-010"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "阮籍",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-07-article-010"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "江青",
+        "relation_type": "leader_of",
+        "source_articles": [
+          "mao-volume-07-article-010",
+          "mao-volume-07-article-038"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "王任重",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-07-article-010"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "魏文伯",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-07-article-010"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "陈丕显",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-07-article-010"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "聂元梓",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-07-article-010"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "李雪峰",
+        "relation_type": "leader_of",
+        "source_articles": [
+          "mao-volume-07-article-012"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "吴德",
+        "relation_type": "leader_of",
+        "source_articles": [
+          "mao-volume-07-article-012"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "翦伯赞",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-07-article-012"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "陆平",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-07-article-012"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "李达",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-07-article-012"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "彭小蒙",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-07-article-013"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "赵永夫",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-07-article-037"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "姚文元",
+        "relation_type": "leader_of",
+        "source_articles": [
+          "mao-volume-07-article-038",
+          "mao-volume-07-article-055"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "李井泉",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-07-article-038"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "刘澜涛",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-07-article-038"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "努马扎莱",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-07-article-041"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "恩克鲁玛",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-07-article-041"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "陈独秀",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-07-article-042"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "瞿秋白",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-07-article-042"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "李德生",
+        "relation_type": "leader_of",
+        "source_articles": [
+          "mao-volume-07-article-055"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "董必武",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-07-article-058"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "陈公博",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-07-article-058"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "周佛海",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-07-article-058"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "刘仁静",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-07-article-058"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "马哈古卜",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-07-article-065"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "乔冠华",
+        "relation_type": "leader_of",
+        "source_articles": [
+          "mao-volume-07-article-070"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "熊向晖",
+        "relation_type": "leader_of",
+        "source_articles": [
+          "mao-volume-07-article-070"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "基辛格",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-07-article-070",
+          "mao-volume-07-article-075",
+          "mao-volume-07-article-079"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "伍修权",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-07-article-070"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "田中角荣",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-07-article-075"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "廖承志",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-07-article-075"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "黄镇",
+        "relation_type": "leader_of",
+        "source_articles": [
+          "mao-volume-07-article-079"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "柯西金",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-07-article-079"
+        ],
+        "confidence": 0.7
+      },
+      {
+        "name": "小平",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-07-article-097"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "秦始皇",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-07-article-097"
+        ],
+        "confidence": 0.7
+      },
+      {
+        "name": "刘邦",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-07-article-097"
+        ],
+        "confidence": 0.7
+      },
+      {
+        "name": "曹操",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-07-article-097"
+        ],
+        "confidence": 0.7
+      },
+      {
+        "name": "朱元璋",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-07-article-097"
+        ],
+        "confidence": 0.7
+      },
+      {
+        "name": "毛远新",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-07-article-098"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "苏振华",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-07-article-098"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "华国锋",
+        "relation_type": "leader_of",
+        "source_articles": [
+          "mao-volume-07-article-098",
+          "mao-volume-07-article-098"
+        ],
+        "confidence": 1.0
+      }
+    ],
+    "organizations": [
+      {
+        "name": "前敌委员会",
+        "relation_type": "leader_of",
+        "source_articles": [
+          "mao-volume-01-article-004"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "边界特委",
+        "relation_type": "leader_of",
+        "source_articles": [
+          "mao-volume-01-article-004"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "中国人民革命军事委员会",
+        "relation_type": "leader_of",
+        "source_articles": [
+          "mao-volume-04-article-062"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "日本皇军",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-06-article-059"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "美帝国主义",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-06-article-059"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "越南南方民族解放阵线",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-07-article-062"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "name": "越南人民",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-07-article-096"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-01",
+      "articles": [
+        {
+          "article_id": "mao-volume-01-article-004",
+          "mention_count": 363
+        },
+        {
+          "article_id": "mao-volume-01-article-006",
+          "mention_count": 363
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-06",
+      "articles": [
+        {
+          "article_id": "mao-volume-06-article-032",
+          "mention_count": 363
+        },
+        {
+          "article_id": "mao-volume-06-article-072",
+          "mention_count": 363
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-07",
+      "articles": [
+        {
+          "article_id": "mao-volume-07-article-028",
+          "mention_count": 363
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 363,
+    "total_articles": 5,
+    "total_volumes": 7,
+    "related_persons": 141,
+    "related_organizations": 7
+  },
+  "confidence": 1.0,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

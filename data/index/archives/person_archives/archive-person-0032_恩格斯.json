@@ -1,0 +1,201 @@
+{
+  "archive_id": "archive-person-0032",
+  "archive_type": "person_archive",
+  "name": "恩格斯",
+  "aliases": [
+    "恩",
+    "恩格斯"
+  ],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "哲学家",
+      "思想家",
+      "理论家",
+      "革命家"
+    ],
+    "affiliations": [
+      "共产主义",
+      "共产主义者同盟",
+      "德国",
+      "马克思主义"
+    ]
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "马克思",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-01-article-017",
+          "mao-volume-01-article-018",
+          "mao-volume-05-article-050",
+          "mao-volume-07-article-009"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "name": "黑格尔",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-01-article-018"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "列宁",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-01-article-018"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "斯大林",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-01-article-018",
+          "mao-volume-06-article-009"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "毛泽东",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-06-article-015",
+          "mao-volume-06-article-028",
+          "mao-volume-07-article-097"
+        ],
+        "confidence": 0.77
+      },
+      {
+        "name": "伯恩斯坦",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-07-article-009"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "考茨基",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-07-article-009"
+        ],
+        "confidence": 1.0
+      }
+    ],
+    "organizations": []
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-01",
+      "articles": [
+        {
+          "article_id": "mao-volume-01-article-017",
+          "mention_count": 39
+        },
+        {
+          "article_id": "mao-volume-01-article-018",
+          "mention_count": 39
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-03",
+      "articles": [
+        {
+          "article_id": "mao-volume-03-article-003",
+          "mention_count": 39
+        },
+        {
+          "article_id": "mao-volume-03-article-007",
+          "mention_count": 39
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-04",
+      "articles": [
+        {
+          "article_id": "mao-volume-04-article-066",
+          "mention_count": 39
+        },
+        {
+          "article_id": "mao-volume-04-article-071",
+          "mention_count": 39
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-05",
+      "articles": [
+        {
+          "article_id": "mao-volume-05-article-050",
+          "mention_count": 39
+        },
+        {
+          "article_id": "mao-volume-05-article-080",
+          "mention_count": 39
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-06",
+      "articles": [
+        {
+          "article_id": "mao-volume-06-article-009",
+          "mention_count": 39
+        },
+        {
+          "article_id": "mao-volume-06-article-015",
+          "mention_count": 39
+        },
+        {
+          "article_id": "mao-volume-06-article-027",
+          "mention_count": 39
+        },
+        {
+          "article_id": "mao-volume-06-article-028",
+          "mention_count": 39
+        },
+        {
+          "article_id": "mao-volume-06-article-054",
+          "mention_count": 39
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-07",
+      "articles": [
+        {
+          "article_id": "mao-volume-07-article-006",
+          "mention_count": 39
+        },
+        {
+          "article_id": "mao-volume-07-article-009",
+          "mention_count": 39
+        },
+        {
+          "article_id": "mao-volume-07-article-068",
+          "mention_count": 39
+        },
+        {
+          "article_id": "mao-volume-07-article-097",
+          "mention_count": 39
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 39,
+    "total_articles": 17,
+    "total_volumes": 6,
+    "related_persons": 7,
+    "related_organizations": 0
+  },
+  "confidence": 1.0,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

@@ -1,0 +1,97 @@
+{
+  "archive_id": "archive-person-0225",
+  "archive_type": "person_archive",
+  "name": "李弥",
+  "aliases": [
+    "李弥将军"
+  ],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "兵团司令",
+      "军事指挥官",
+      "将军"
+    ],
+    "affiliations": [
+      "国民党",
+      "国民党军"
+    ]
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "邱清泉",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-04-article-043",
+          "mao-volume-04-article-047",
+          "mao-volume-04-article-048"
+        ],
+        "confidence": 0.87
+      },
+      {
+        "name": "杜聿明",
+        "relation_type": "leader_of",
+        "source_articles": [
+          "mao-volume-04-article-047"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "孙元良",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-04-article-047"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "organizations": [
+      {
+        "name": "李弥部",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-04-article-043"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "解放军",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-04-article-048"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-04",
+      "articles": [
+        {
+          "article_id": "mao-volume-04-article-043",
+          "mention_count": 7
+        },
+        {
+          "article_id": "mao-volume-04-article-047",
+          "mention_count": 7
+        },
+        {
+          "article_id": "mao-volume-04-article-048",
+          "mention_count": 7
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 7,
+    "total_articles": 3,
+    "total_volumes": 1,
+    "related_persons": 3,
+    "related_organizations": 2
+  },
+  "confidence": 0.97,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

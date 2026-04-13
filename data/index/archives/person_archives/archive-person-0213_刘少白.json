@@ -1,0 +1,49 @@
+{
+  "archive_id": "archive-person-0213",
+  "archive_type": "person_archive",
+  "name": "刘少白",
+  "aliases": [],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "开明绅士"
+    ],
+    "affiliations": [
+      "晋绥边区"
+    ]
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "中国共产党",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-04-article-032"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "organizations": []
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-04",
+      "articles": [
+        {
+          "article_id": "mao-volume-04-article-032",
+          "mention_count": 1
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 1,
+    "total_articles": 1,
+    "total_volumes": 1,
+    "related_persons": 1,
+    "related_organizations": 0
+  },
+  "confidence": 1.0,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

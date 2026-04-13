@@ -1,0 +1,40 @@
+{
+  "archive_id": "archive-place-0170",
+  "archive_type": "place_archive",
+  "name": "鄂西",
+  "aliases": [],
+  "summary": "",
+  "attributes": {
+    "place_type": "地理区域",
+    "modern_name": [
+      "湖北省西部地区",
+      "鄂西地区"
+    ]
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-03",
+      "articles": [
+        {
+          "article_id": "mao-volume-03-article-019"
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-04",
+      "articles": [
+        {
+          "article_id": "mao-volume-04-article-016"
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 2,
+    "total_articles": 2,
+    "total_volumes": 2
+  },
+  "confidence": 0.9,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

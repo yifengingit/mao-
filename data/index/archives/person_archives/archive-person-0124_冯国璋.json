@@ -1,0 +1,57 @@
+{
+  "archive_id": "archive-person-0124",
+  "archive_type": "person_archive",
+  "name": "冯国璋",
+  "aliases": [],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "军阀",
+      "大总统",
+      "总统"
+    ],
+    "affiliations": []
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "黎元洪",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-02-article-033"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "徐世昌",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-02-article-033"
+        ],
+        "confidence": 0.8
+      }
+    ],
+    "organizations": []
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-02",
+      "articles": [
+        {
+          "article_id": "mao-volume-02-article-033",
+          "mention_count": 2
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 2,
+    "total_articles": 1,
+    "total_volumes": 1,
+    "related_persons": 2,
+    "related_organizations": 0
+  },
+  "confidence": 1.0,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

@@ -1,0 +1,65 @@
+{
+  "archive_id": "archive-place-0200",
+  "archive_type": "place_archive",
+  "name": "解放区",
+  "aliases": [
+    "解放区"
+  ],
+  "summary": "",
+  "attributes": {
+    "place_type": "地理区域",
+    "modern_name": [
+      "解放区",
+      "解放区（历史区域）",
+      "解放区（历史名称）",
+      "解放区（历史地名）"
+    ]
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-03",
+      "articles": [
+        {
+          "article_id": "mao-volume-03-article-030"
+        },
+        {
+          "article_id": "mao-volume-03-article-032"
+        },
+        {
+          "article_id": "mao-volume-03-article-033"
+        },
+        {
+          "article_id": "mao-volume-03-article-037"
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-04",
+      "articles": [
+        {
+          "article_id": "mao-volume-04-article-008"
+        },
+        {
+          "article_id": "mao-volume-04-article-012"
+        },
+        {
+          "article_id": "mao-volume-04-article-022"
+        },
+        {
+          "article_id": "mao-volume-04-article-024"
+        },
+        {
+          "article_id": "mao-volume-04-article-026"
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 24,
+    "total_articles": 9,
+    "total_volumes": 2
+  },
+  "confidence": 0.98,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

@@ -1,0 +1,78 @@
+{
+  "archive_id": "archive-person-0534",
+  "archive_type": "person_archive",
+  "name": "基辛格",
+  "aliases": [
+    "基辛格"
+  ],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "国家安全事务助理",
+      "外交官",
+      "外交家",
+      "政治家",
+      "美国国务卿"
+    ],
+    "affiliations": [
+      "美国",
+      "美国政府"
+    ]
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "毛泽东",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-07-article-070",
+          "mao-volume-07-article-075",
+          "mao-volume-07-article-079"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "尼克松",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-07-article-079"
+        ],
+        "confidence": 0.8
+      }
+    ],
+    "organizations": []
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-07",
+      "articles": [
+        {
+          "article_id": "mao-volume-07-article-070",
+          "mention_count": 19
+        },
+        {
+          "article_id": "mao-volume-07-article-075",
+          "mention_count": 19
+        },
+        {
+          "article_id": "mao-volume-07-article-079",
+          "mention_count": 19
+        },
+        {
+          "article_id": "mao-volume-07-article-082",
+          "mention_count": 19
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 19,
+    "total_articles": 4,
+    "total_volumes": 1,
+    "related_persons": 2,
+    "related_organizations": 0
+  },
+  "confidence": 1.0,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

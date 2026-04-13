@@ -1,0 +1,54 @@
+{
+  "archive_id": "archive-person-0547",
+  "archive_type": "person_archive",
+  "name": "黎笋",
+  "aliases": [],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "越南劳动党中央委员会第一书记"
+    ],
+    "affiliations": [
+      "越南劳动党"
+    ]
+  },
+  "related_entities": {
+    "persons": [],
+    "organizations": [
+      {
+        "name": "越南劳动党",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-07-article-077",
+          "mao-volume-07-article-096"
+        ],
+        "confidence": 0.97
+      }
+    ]
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-07",
+      "articles": [
+        {
+          "article_id": "mao-volume-07-article-077",
+          "mention_count": 2
+        },
+        {
+          "article_id": "mao-volume-07-article-096",
+          "mention_count": 2
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 2,
+    "total_articles": 2,
+    "total_volumes": 1,
+    "related_persons": 0,
+    "related_organizations": 1
+  },
+  "confidence": 1.0,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

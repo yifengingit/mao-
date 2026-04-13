@@ -1,0 +1,95 @@
+{
+  "archive_id": "archive-person-0542",
+  "archive_type": "person_archive",
+  "name": "田中角荣",
+  "aliases": [
+    "田中",
+    "田中先生",
+    "田中首相"
+  ],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "日本首相",
+      "政治家"
+    ],
+    "affiliations": [
+      "日本自民党",
+      "日本内阁"
+    ]
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "毛泽东",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-07-article-075"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "大平正芳",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-07-article-075"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "尼克松",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-07-article-075"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "周恩来",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-07-article-075"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "廖承志",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-07-article-075"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "二阶堂进",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-07-article-075"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "organizations": []
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-07",
+      "articles": [
+        {
+          "article_id": "mao-volume-07-article-075",
+          "mention_count": 18
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 18,
+    "total_articles": 1,
+    "total_volumes": 1,
+    "related_persons": 6,
+    "related_organizations": 0
+  },
+  "confidence": 1.0,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

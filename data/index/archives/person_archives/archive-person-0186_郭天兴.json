@@ -1,0 +1,49 @@
+{
+  "archive_id": "archive-person-0186",
+  "archive_type": "person_archive",
+  "name": "郭天兴",
+  "aliases": [],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "师长"
+    ],
+    "affiliations": [
+      "国民党"
+    ]
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "阎锡山",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-04-article-007"
+        ],
+        "confidence": 1.0
+      }
+    ],
+    "organizations": []
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-04",
+      "articles": [
+        {
+          "article_id": "mao-volume-04-article-007",
+          "mention_count": 1
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 1,
+    "total_articles": 1,
+    "total_volumes": 1,
+    "related_persons": 1,
+    "related_organizations": 0
+  },
+  "confidence": 1.0,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

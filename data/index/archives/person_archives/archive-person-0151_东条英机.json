@@ -1,0 +1,96 @@
+{
+  "archive_id": "archive-person-0151",
+  "archive_type": "person_archive",
+  "name": "东条英机",
+  "aliases": [
+    "东条"
+  ],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "军事将领",
+      "军事指挥官",
+      "政治家",
+      "日本首相"
+    ],
+    "affiliations": [
+      "日本",
+      "日本军国主义政府"
+    ]
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "汪精卫",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-03-article-017"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "希特勒",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-04-article-069"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "墨索里尼",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-04-article-069"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "佛朗哥",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-04-article-069"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "蒋介石",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-04-article-069"
+        ],
+        "confidence": 0.8
+      }
+    ],
+    "organizations": []
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-03",
+      "articles": [
+        {
+          "article_id": "mao-volume-03-article-017",
+          "mention_count": 4
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-04",
+      "articles": [
+        {
+          "article_id": "mao-volume-04-article-069",
+          "mention_count": 4
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 4,
+    "total_articles": 2,
+    "total_volumes": 2,
+    "related_persons": 5,
+    "related_organizations": 0
+  },
+  "confidence": 1.0,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

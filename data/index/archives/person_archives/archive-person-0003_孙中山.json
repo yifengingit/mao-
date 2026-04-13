@@ -1,0 +1,156 @@
+{
+  "archive_id": "archive-person-0003",
+  "archive_type": "person_archive",
+  "name": "孙中山",
+  "aliases": [
+    "孙中山先生",
+    "孙先生",
+    "孙文",
+    "孙氏",
+    "老先生"
+  ],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "政治家",
+      "革命先行者",
+      "革命家"
+    ],
+    "affiliations": [
+      "中国国民党",
+      "中国革命民主派",
+      "国民党"
+    ]
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "蒋介石",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-02-article-002",
+          "mao-volume-02-article-004"
+        ],
+        "confidence": 0.7
+      },
+      {
+        "name": "毛泽东",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-02-article-005",
+          "mao-volume-05-article-002",
+          "mao-volume-05-article-032"
+        ],
+        "confidence": 0.82
+      },
+      {
+        "name": "斯大林",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-02-article-013"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "袁世凯",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-02-article-013",
+          "mao-volume-02-article-033",
+          "mao-volume-05-article-062"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "马克思",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-02-article-027"
+        ],
+        "confidence": 0.7
+      },
+      {
+        "name": "国民党",
+        "relation_type": "leader_of",
+        "source_articles": [
+          "mao-volume-03-article-017",
+          "mao-volume-04-article-032"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "name": "共产党",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-03-article-021"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "中国共产党",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-03-article-031",
+          "mao-volume-04-article-066",
+          "mao-volume-04-article-071"
+        ],
+        "confidence": 0.93
+      },
+      {
+        "name": "严复",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-04-article-066"
+        ],
+        "confidence": 0.8
+      }
+    ],
+    "organizations": [
+      {
+        "name": "国民革命",
+        "relation_type": "leader_of",
+        "source_articles": [
+          "mao-volume-01-article-002"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "苏联",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-04-article-045"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "俄国",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-04-article-071"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-01",
+      "articles": [
+        {
+          "article_id": "mao-volume-01-article-002",
+          "mention_count": 99
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 99,
+    "total_articles": 1,
+    "total_volumes": 7,
+    "related_persons": 9,
+    "related_organizations": 3
+  },
+  "confidence": 0.97,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

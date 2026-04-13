@@ -1,0 +1,455 @@
+{
+  "archive_id": "archive-person-0090",
+  "archive_type": "person_archive",
+  "name": "周恩来",
+  "aliases": [
+    "周总理",
+    "周恩来总理",
+    "总理",
+    "恩来",
+    "恩来同志"
+  ],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "中华人民共和国国务院总理",
+      "中华人民共和国总理",
+      "中国共产党第六次全国代表大会代表",
+      "中国政府代表",
+      "军事家",
+      "同志",
+      "国务院总理",
+      "外交家",
+      "政治家",
+      "革命家"
+    ],
+    "affiliations": [
+      "中华人民共和国",
+      "中华人民共和国国务院",
+      "中华人民共和国政府",
+      "中国共产党",
+      "中国政府",
+      "共产党"
+    ]
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "蒋介石",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-02-article-019"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "毛泽东",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-04-article-005",
+          "mao-volume-05-article-056",
+          "mao-volume-06-article-001",
+          "mao-volume-06-article-006",
+          "mao-volume-06-article-049",
+          "mao-volume-07-article-010",
+          "mao-volume-07-article-012",
+          "mao-volume-07-article-062",
+          "mao-volume-07-article-075",
+          "mao-volume-07-article-079",
+          "mao-volume-07-article-095",
+          "mao-volume-07-article-096",
+          "mao-volume-07-article-097"
+        ],
+        "confidence": 0.91
+      },
+      {
+        "name": "王若飞",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-04-article-005"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "中国共产党",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-04-article-005",
+          "mao-volume-07-article-058"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "name": "梁漱溟",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-05-article-044"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "金日成",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-06-article-001"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "舍马克",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-06-article-049"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "佐佐木",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-06-article-059"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "刘少奇",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-07-article-003"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "彭真",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-07-article-003"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "林彪",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-07-article-018",
+          "mao-volume-07-article-062"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "陈毅",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-07-article-018"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "陶铸",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-07-article-018"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "陈伯达",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-07-article-018"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "江青",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-07-article-038"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "张鼎丞",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-07-article-055"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "高岗",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-07-article-055"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "饶漱石",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-07-article-055"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "徐海东",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-07-article-055"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "肖克",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-07-article-055"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "刘伯承",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-07-article-058"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "熊向晖",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-07-article-070"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "黄华",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-07-article-070"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "田中角荣",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-07-article-075"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "赫鲁晓夫",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-07-article-079"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "朱德",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-07-article-095",
+          "mao-volume-07-article-096",
+          "mao-volume-07-article-097"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "organizations": [
+      {
+        "name": "台湾军民同胞们",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-06-article-007"
+        ],
+        "confidence": 0.7
+      },
+      {
+        "name": "第二个五年计划",
+        "relation_type": "leader_of",
+        "source_articles": [
+          "mao-volume-06-article-031"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "越南南方民族解放阵线",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-07-article-062"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "name": "中华人民共和国国务院",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-07-article-095",
+          "mao-volume-07-article-096"
+        ],
+        "confidence": 0.97
+      },
+      {
+        "name": "越南人民",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-07-article-096"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-02",
+      "articles": [
+        {
+          "article_id": "mao-volume-02-article-019",
+          "mention_count": 42
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-04",
+      "articles": [
+        {
+          "article_id": "mao-volume-04-article-005",
+          "mention_count": 42
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-05",
+      "articles": [
+        {
+          "article_id": "mao-volume-05-article-042",
+          "mention_count": 42
+        },
+        {
+          "article_id": "mao-volume-05-article-044",
+          "mention_count": 42
+        },
+        {
+          "article_id": "mao-volume-05-article-049",
+          "mention_count": 42
+        },
+        {
+          "article_id": "mao-volume-05-article-056",
+          "mention_count": 42
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-06",
+      "articles": [
+        {
+          "article_id": "mao-volume-06-article-001",
+          "mention_count": 42
+        },
+        {
+          "article_id": "mao-volume-06-article-006",
+          "mention_count": 42
+        },
+        {
+          "article_id": "mao-volume-06-article-007",
+          "mention_count": 42
+        },
+        {
+          "article_id": "mao-volume-06-article-031",
+          "mention_count": 42
+        },
+        {
+          "article_id": "mao-volume-06-article-049",
+          "mention_count": 42
+        },
+        {
+          "article_id": "mao-volume-06-article-059",
+          "mention_count": 42
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-07",
+      "articles": [
+        {
+          "article_id": "mao-volume-07-article-003",
+          "mention_count": 42
+        },
+        {
+          "article_id": "mao-volume-07-article-010",
+          "mention_count": 42
+        },
+        {
+          "article_id": "mao-volume-07-article-012",
+          "mention_count": 42
+        },
+        {
+          "article_id": "mao-volume-07-article-018",
+          "mention_count": 42
+        },
+        {
+          "article_id": "mao-volume-07-article-020",
+          "mention_count": 42
+        },
+        {
+          "article_id": "mao-volume-07-article-038",
+          "mention_count": 42
+        },
+        {
+          "article_id": "mao-volume-07-article-055",
+          "mention_count": 42
+        },
+        {
+          "article_id": "mao-volume-07-article-058",
+          "mention_count": 42
+        },
+        {
+          "article_id": "mao-volume-07-article-062",
+          "mention_count": 42
+        },
+        {
+          "article_id": "mao-volume-07-article-070",
+          "mention_count": 42
+        },
+        {
+          "article_id": "mao-volume-07-article-072",
+          "mention_count": 42
+        },
+        {
+          "article_id": "mao-volume-07-article-075",
+          "mention_count": 42
+        },
+        {
+          "article_id": "mao-volume-07-article-079",
+          "mention_count": 42
+        },
+        {
+          "article_id": "mao-volume-07-article-095",
+          "mention_count": 42
+        },
+        {
+          "article_id": "mao-volume-07-article-096",
+          "mention_count": 42
+        },
+        {
+          "article_id": "mao-volume-07-article-097",
+          "mention_count": 42
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 42,
+    "total_articles": 28,
+    "total_volumes": 5,
+    "related_persons": 26,
+    "related_organizations": 5
+  },
+  "confidence": 0.99,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

@@ -1,0 +1,77 @@
+{
+  "archive_id": "archive-person-0192",
+  "archive_type": "person_archive",
+  "name": "沙皇",
+  "aliases": [],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "君主",
+      "统治者"
+    ],
+    "affiliations": [
+      "俄国",
+      "俄罗斯帝国"
+    ]
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "希特勒",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-05-article-079"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "蒋介石",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-05-article-079"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "organizations": [
+      {
+        "name": "工农兵苏维埃",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-04-article-013"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-04",
+      "articles": [
+        {
+          "article_id": "mao-volume-04-article-013",
+          "mention_count": 2
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-05",
+      "articles": [
+        {
+          "article_id": "mao-volume-05-article-079",
+          "mention_count": 2
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 2,
+    "total_articles": 2,
+    "total_volumes": 2,
+    "related_persons": 2,
+    "related_organizations": 1
+  },
+  "confidence": 0.9,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

@@ -1,0 +1,39 @@
+{
+  "archive_id": "archive-place-0011",
+  "archive_type": "place_archive",
+  "name": "东三省",
+  "aliases": [
+    "东三省"
+  ],
+  "summary": "",
+  "attributes": {
+    "place_type": "地理区域",
+    "modern_name": "东北地区（辽宁、吉林、黑龙江）"
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-01",
+      "articles": [
+        {
+          "article_id": "mao-volume-01-article-012"
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-03",
+      "articles": [
+        {
+          "article_id": "mao-volume-03-article-031"
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 5,
+    "total_articles": 2,
+    "total_volumes": 2
+  },
+  "confidence": 0.95,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

@@ -1,0 +1,47 @@
+{
+  "archive_id": "archive-person-0019",
+  "archive_type": "person_archive",
+  "name": "俄国皇帝",
+  "aliases": [],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "统治者"
+    ],
+    "affiliations": []
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "国民党",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-01-article-011"
+        ],
+        "confidence": 0.7
+      }
+    ],
+    "organizations": []
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-01",
+      "articles": [
+        {
+          "article_id": "mao-volume-01-article-011",
+          "mention_count": 2
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 2,
+    "total_articles": 1,
+    "total_volumes": 1,
+    "related_persons": 1,
+    "related_organizations": 0
+  },
+  "confidence": 0.9,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

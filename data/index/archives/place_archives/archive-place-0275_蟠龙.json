@@ -1,0 +1,29 @@
+{
+  "archive_id": "archive-place-0275",
+  "archive_type": "place_archive",
+  "name": "蟠龙",
+  "aliases": [],
+  "summary": "",
+  "attributes": {
+    "place_type": "地点",
+    "modern_name": "蟠龙"
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-04",
+      "articles": [
+        {
+          "article_id": "mao-volume-04-article-027"
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 1,
+    "total_articles": 1,
+    "total_volumes": 1
+  },
+  "confidence": 0.9,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

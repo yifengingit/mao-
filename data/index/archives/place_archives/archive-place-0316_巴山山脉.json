@@ -1,0 +1,29 @@
+{
+  "archive_id": "archive-place-0316",
+  "archive_type": "place_archive",
+  "name": "巴山山脉",
+  "aliases": [],
+  "summary": "",
+  "attributes": {
+    "place_type": "山脉",
+    "modern_name": "巴山山脉"
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-04",
+      "articles": [
+        {
+          "article_id": "mao-volume-04-article-042"
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 2,
+    "total_articles": 1,
+    "total_volumes": 1
+  },
+  "confidence": 1.0,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

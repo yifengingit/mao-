@@ -1,0 +1,31 @@
+{
+  "archive_id": "archive-place-0192",
+  "archive_type": "place_archive",
+  "name": "代县",
+  "aliases": [
+    "代"
+  ],
+  "summary": "",
+  "attributes": {
+    "place_type": "县",
+    "modern_name": "代县（山西省）"
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-03",
+      "articles": [
+        {
+          "article_id": "mao-volume-03-article-029"
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 2,
+    "total_articles": 1,
+    "total_volumes": 1
+  },
+  "confidence": 1.0,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

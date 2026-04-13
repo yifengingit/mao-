@@ -1,0 +1,65 @@
+{
+  "archive_id": "archive-person-0022",
+  "archive_type": "person_archive",
+  "name": "唐生智",
+  "aliases": [],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "军事人物",
+      "军阀",
+      "革命军将领"
+    ],
+    "affiliations": [
+      "国民党",
+      "湘系军阀"
+    ]
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "李宗仁",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-01-article-004"
+        ],
+        "confidence": 1.0
+      }
+    ],
+    "organizations": [
+      {
+        "name": "革命",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-01-article-012"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-01",
+      "articles": [
+        {
+          "article_id": "mao-volume-01-article-004",
+          "mention_count": 6
+        },
+        {
+          "article_id": "mao-volume-01-article-012",
+          "mention_count": 6
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 6,
+    "total_articles": 2,
+    "total_volumes": 1,
+    "related_persons": 1,
+    "related_organizations": 1
+  },
+  "confidence": 0.99,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

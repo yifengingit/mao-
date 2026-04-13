@@ -1,0 +1,194 @@
+{
+  "archive_id": "archive-person-0026",
+  "archive_type": "person_archive",
+  "name": "列宁",
+  "aliases": [
+    "列宁"
+  ],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "哲学家",
+      "思想家",
+      "政治家",
+      "理论家",
+      "苏联革命家",
+      "苏联领导人",
+      "革命家"
+    ],
+    "affiliations": [
+      "共产国际",
+      "布尔什维克党",
+      "苏联",
+      "苏联共产党",
+      "马克思主义"
+    ]
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "斯大林",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-01-article-013"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "马克思",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-01-article-017",
+          "mao-volume-02-article-012"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "name": "恩格斯",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-01-article-018"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "陈独秀",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-02-article-011"
+        ],
+        "confidence": 0.7
+      },
+      {
+        "name": "张国焘",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-02-article-011"
+        ],
+        "confidence": 0.7
+      },
+      {
+        "name": "白求恩",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-02-article-026"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "毛泽东",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-03-article-009",
+          "mao-volume-03-article-022",
+          "mao-volume-05-article-056",
+          "mao-volume-06-article-014",
+          "mao-volume-06-article-015",
+          "mao-volume-06-article-028",
+          "mao-volume-06-article-044",
+          "mao-volume-07-article-010",
+          "mao-volume-07-article-068",
+          "mao-volume-07-article-097"
+        ],
+        "confidence": 0.86
+      },
+      {
+        "name": "鲁迅",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-03-article-011"
+        ],
+        "confidence": 0.7
+      },
+      {
+        "name": "中国共产党",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-04-article-066"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "赫鲁晓夫",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-07-article-006"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "organizations": [
+      {
+        "name": "列宁主义",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-06-article-003"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "布尔什维克",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-06-article-027"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "孟什维克",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-06-article-027"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "折衷主义",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-06-article-074"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-01",
+      "articles": [
+        {
+          "article_id": "mao-volume-01-article-013",
+          "mention_count": 96
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-04",
+      "articles": [
+        {
+          "article_id": "mao-volume-04-article-067",
+          "mention_count": 96
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-07",
+      "articles": [
+        {
+          "article_id": "mao-volume-07-article-028",
+          "mention_count": 96
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 96,
+    "total_articles": 3,
+    "total_volumes": 7,
+    "related_persons": 10,
+    "related_organizations": 4
+  },
+  "confidence": 1.0,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

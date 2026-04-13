@@ -1,0 +1,105 @@
+{
+  "archive_id": "archive-person-0205",
+  "archive_type": "person_archive",
+  "name": "马歇尔",
+  "aliases": [
+    "马歇尔先生",
+    "马歇尔幕后总司令"
+  ],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "军事家",
+      "外交官",
+      "外交家",
+      "政治家",
+      "特使",
+      "美国军事家、政治家",
+      "美国军事将领",
+      "美国政治家"
+    ],
+    "affiliations": [
+      "民主党",
+      "美国",
+      "美国政府"
+    ]
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "蒋介石",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-04-article-016"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "孙科",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-04-article-058"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "司徒雷登",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-04-article-068"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "杜鲁门",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-04-article-068"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "艾奇逊",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-04-article-069"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "毛泽东",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-06-article-024"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "organizations": []
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-04",
+      "articles": [
+        {
+          "article_id": "mao-volume-04-article-016",
+          "mention_count": 10
+        },
+        {
+          "article_id": "mao-volume-04-article-067",
+          "mention_count": 10
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 10,
+    "total_articles": 2,
+    "total_volumes": 2,
+    "related_persons": 6,
+    "related_organizations": 0
+  },
+  "confidence": 1.0,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

@@ -1,0 +1,80 @@
+{
+  "archive_id": "archive-person-0203",
+  "archive_type": "person_archive",
+  "name": "马鸿逵",
+  "aliases": [],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "军事家",
+      "军事指挥官"
+    ],
+    "affiliations": [
+      "国民党",
+      "国民党军队"
+    ]
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "胡宗南",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-04-article-033"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "邓宝珊",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-04-article-033"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "马步芳",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-04-article-033"
+        ],
+        "confidence": 1.0
+      }
+    ],
+    "organizations": [
+      {
+        "name": "蒋军",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-04-article-016"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-04",
+      "articles": [
+        {
+          "article_id": "mao-volume-04-article-016",
+          "mention_count": 2
+        },
+        {
+          "article_id": "mao-volume-04-article-033",
+          "mention_count": 2
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 2,
+    "total_articles": 2,
+    "total_volumes": 1,
+    "related_persons": 3,
+    "related_organizations": 1
+  },
+  "confidence": 1.0,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

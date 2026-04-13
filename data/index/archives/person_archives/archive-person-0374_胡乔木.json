@@ -1,0 +1,75 @@
+{
+  "archive_id": "archive-person-0374",
+  "archive_type": "person_archive",
+  "name": "胡乔木",
+  "aliases": [
+    "乔木"
+  ],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "中共中央书记处候补书记",
+      "政治家",
+      "理论家",
+      "秘书"
+    ],
+    "affiliations": [
+      "中国共产党"
+    ]
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "毛泽东",
+        "relation_type": "leader_of",
+        "source_articles": [
+          "mao-volume-06-article-023",
+          "mao-volume-06-article-038"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "name": "陈伯达",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-06-article-038"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "田家英",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-06-article-038"
+        ],
+        "confidence": 0.8
+      }
+    ],
+    "organizations": []
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-06",
+      "articles": [
+        {
+          "article_id": "mao-volume-06-article-023",
+          "mention_count": 2
+        },
+        {
+          "article_id": "mao-volume-06-article-038",
+          "mention_count": 2
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 2,
+    "total_articles": 2,
+    "total_volumes": 1,
+    "related_persons": 3,
+    "related_organizations": 0
+  },
+  "confidence": 1.0,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

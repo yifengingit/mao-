@@ -1,0 +1,118 @@
+{
+  "archive_id": "archive-place-0018",
+  "archive_type": "place_archive",
+  "name": "日本",
+  "aliases": [
+    "日",
+    "日寇",
+    "日本",
+    "日本帝国主义"
+  ],
+  "summary": "",
+  "attributes": {
+    "place_type": "国家",
+    "modern_name": "日本"
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-01",
+      "articles": [
+        {
+          "article_id": "mao-volume-01-article-014"
+        },
+        {
+          "article_id": "mao-volume-01-article-016"
+        },
+        {
+          "article_id": "mao-volume-01-article-018"
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-02",
+      "articles": [
+        {
+          "article_id": "mao-volume-02-article-001"
+        },
+        {
+          "article_id": "mao-volume-02-article-002"
+        },
+        {
+          "article_id": "mao-volume-02-article-008"
+        },
+        {
+          "article_id": "mao-volume-02-article-014"
+        },
+        {
+          "article_id": "mao-volume-02-article-015"
+        },
+        {
+          "article_id": "mao-volume-02-article-023"
+        },
+        {
+          "article_id": "mao-volume-02-article-024"
+        },
+        {
+          "article_id": "mao-volume-02-article-026"
+        },
+        {
+          "article_id": "mao-volume-02-article-029"
+        },
+        {
+          "article_id": "mao-volume-02-article-033"
+        },
+        {
+          "article_id": "mao-volume-02-article-035"
+        },
+        {
+          "article_id": "mao-volume-02-article-037"
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-03",
+      "articles": [
+        {
+          "article_id": "mao-volume-03-article-001"
+        },
+        {
+          "article_id": "mao-volume-03-article-003"
+        },
+        {
+          "article_id": "mao-volume-03-article-005"
+        },
+        {
+          "article_id": "mao-volume-03-article-014"
+        },
+        {
+          "article_id": "mao-volume-03-article-031"
+        },
+        {
+          "article_id": "mao-volume-03-article-037"
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-04",
+      "articles": [
+        {
+          "article_id": "mao-volume-04-article-017"
+        },
+        {
+          "article_id": "mao-volume-04-article-022"
+        },
+        {
+          "article_id": "mao-volume-04-article-045"
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 79,
+    "total_articles": 24,
+    "total_volumes": 4
+  },
+  "confidence": 1.0,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

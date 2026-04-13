@@ -1,0 +1,274 @@
+{
+  "archive_id": "archive-person-0073",
+  "archive_type": "person_archive",
+  "name": "陈独秀",
+  "aliases": [
+    "陈独秀主义"
+  ],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "中国共产党早期领导人",
+      "右倾机会主义者",
+      "右倾机会主义路线代表",
+      "思想家",
+      "政治家",
+      "革命家"
+    ],
+    "affiliations": [
+      "中国共产党"
+    ]
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "共产党",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-02-article-006",
+          "mao-volume-05-article-062"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "列宁",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-02-article-011"
+        ],
+        "confidence": 0.7
+      },
+      {
+        "name": "中国共产党",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-02-article-013",
+          "mao-volume-04-article-001",
+          "mao-volume-06-article-039",
+          "mao-volume-07-article-006"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "斯大林",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-02-article-021"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "李立三",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-03-article-023"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "蒋介石",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-04-article-001"
+        ],
+        "confidence": 0.7
+      },
+      {
+        "name": "王明",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-05-article-062"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "张国焘",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-05-article-062"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "高岗",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-05-article-062"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "托洛茨基",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-05-article-079"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "毛泽东",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-07-article-042"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "organizations": [
+      {
+        "name": "马克思主义",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-02-article-015"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "右倾机会主义",
+        "relation_type": "leader_of",
+        "source_articles": [
+          "mao-volume-02-article-038"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "主观主义",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-05-article-042"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "农民",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-05-article-064"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "毛泽东选集",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-06-article-039"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-02",
+      "articles": [
+        {
+          "article_id": "mao-volume-02-article-006",
+          "mention_count": 28
+        },
+        {
+          "article_id": "mao-volume-02-article-011",
+          "mention_count": 28
+        },
+        {
+          "article_id": "mao-volume-02-article-013",
+          "mention_count": 28
+        },
+        {
+          "article_id": "mao-volume-02-article-015",
+          "mention_count": 28
+        },
+        {
+          "article_id": "mao-volume-02-article-021",
+          "mention_count": 28
+        },
+        {
+          "article_id": "mao-volume-02-article-038",
+          "mention_count": 28
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-03",
+      "articles": [
+        {
+          "article_id": "mao-volume-03-article-002",
+          "mention_count": 28
+        },
+        {
+          "article_id": "mao-volume-03-article-023",
+          "mention_count": 28
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-04",
+      "articles": [
+        {
+          "article_id": "mao-volume-04-article-001",
+          "mention_count": 28
+        },
+        {
+          "article_id": "mao-volume-04-article-036",
+          "mention_count": 28
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-05",
+      "articles": [
+        {
+          "article_id": "mao-volume-05-article-042",
+          "mention_count": 28
+        },
+        {
+          "article_id": "mao-volume-05-article-062",
+          "mention_count": 28
+        },
+        {
+          "article_id": "mao-volume-05-article-063",
+          "mention_count": 28
+        },
+        {
+          "article_id": "mao-volume-05-article-064",
+          "mention_count": 28
+        },
+        {
+          "article_id": "mao-volume-05-article-079",
+          "mention_count": 28
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-06",
+      "articles": [
+        {
+          "article_id": "mao-volume-06-article-039",
+          "mention_count": 28
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-07",
+      "articles": [
+        {
+          "article_id": "mao-volume-07-article-006",
+          "mention_count": 28
+        },
+        {
+          "article_id": "mao-volume-07-article-042",
+          "mention_count": 28
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 28,
+    "total_articles": 18,
+    "total_volumes": 6,
+    "related_persons": 11,
+    "related_organizations": 5
+  },
+  "confidence": 0.98,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

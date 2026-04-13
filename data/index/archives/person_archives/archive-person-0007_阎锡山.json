@@ -1,0 +1,222 @@
+{
+  "archive_id": "archive-person-0007",
+  "archive_type": "person_archive",
+  "name": "阎锡山",
+  "aliases": [
+    "阎"
+  ],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "军事家",
+      "军事将领",
+      "军事指挥员",
+      "军阀",
+      "国民党军事将领",
+      "国民党新军阀",
+      "政治家"
+    ],
+    "affiliations": [
+      "国民党",
+      "地方实力派"
+    ]
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "蒋介石",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-01-article-003"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "桂系军阀",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-01-article-003"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "冯玉祥",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-01-article-003"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "张作霖",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-01-article-003"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "刘少奇",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-02-article-011"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "国民党",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-04-article-006",
+          "mao-volume-04-article-007",
+          "mao-volume-04-article-020",
+          "mao-volume-04-article-034"
+        ],
+        "confidence": 0.99
+      },
+      {
+        "name": "史泽波",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-04-article-007"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "郭溶",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-04-article-007"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "张宏",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-04-article-007"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "李佩膺",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-04-article-007"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "郭天兴",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-04-article-007"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "杨文彩",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-04-article-007"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "吴国桢",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-04-article-007"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "孙连仲",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-04-article-020"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "傅作义",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-04-article-020"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "徐向前",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-04-article-039"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "周士第",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-04-article-039"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "organizations": [
+      {
+        "name": "国民党新军阀",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-01-article-003"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "中共",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-04-article-007"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "蒋军",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-04-article-016"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "我军",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-04-article-020"
+        ],
+        "confidence": 1.0
+      }
+    ]
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-01",
+      "articles": [
+        {
+          "article_id": "mao-volume-01-article-003",
+          "mention_count": 25
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 25,
+    "total_articles": 1,
+    "total_volumes": 3,
+    "related_persons": 17,
+    "related_organizations": 4
+  },
+  "confidence": 0.98,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

@@ -1,0 +1,123 @@
+{
+  "archive_id": "archive-person-0381",
+  "archive_type": "person_archive",
+  "name": "张闻天",
+  "aliases": [
+    "张",
+    "洛甫"
+  ],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "政治家",
+      "革命家"
+    ],
+    "affiliations": [
+      "中国共产党"
+    ]
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "毛泽东",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-06-article-024"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "彭德怀",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-06-article-039"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "黄克诚",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-06-article-039"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "周小舟",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-06-article-039"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "中国共产党",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-07-article-006",
+          "mao-volume-07-article-059"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "name": "王明",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-07-article-040"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "博古",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-07-article-040"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "organizations": []
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-06",
+      "articles": [
+        {
+          "article_id": "mao-volume-06-article-024",
+          "mention_count": 6
+        },
+        {
+          "article_id": "mao-volume-06-article-039",
+          "mention_count": 6
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-07",
+      "articles": [
+        {
+          "article_id": "mao-volume-07-article-006",
+          "mention_count": 6
+        },
+        {
+          "article_id": "mao-volume-07-article-040",
+          "mention_count": 6
+        },
+        {
+          "article_id": "mao-volume-07-article-059",
+          "mention_count": 6
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 6,
+    "total_articles": 5,
+    "total_volumes": 2,
+    "related_persons": 7,
+    "related_organizations": 0
+  },
+  "confidence": 0.99,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

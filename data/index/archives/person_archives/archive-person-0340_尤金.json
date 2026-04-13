@@ -1,0 +1,56 @@
+{
+  "archive_id": "archive-person-0340",
+  "archive_type": "person_archive",
+  "name": "尤金",
+  "aliases": [],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "哲学家",
+      "外交官",
+      "苏联驻华大使"
+    ],
+    "affiliations": [
+      "苏联"
+    ]
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "毛泽东",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-06-article-006",
+          "mao-volume-06-article-014"
+        ],
+        "confidence": 0.85
+      }
+    ],
+    "organizations": []
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-06",
+      "articles": [
+        {
+          "article_id": "mao-volume-06-article-006",
+          "mention_count": 5
+        },
+        {
+          "article_id": "mao-volume-06-article-014",
+          "mention_count": 5
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 5,
+    "total_articles": 2,
+    "total_volumes": 1,
+    "related_persons": 1,
+    "related_organizations": 0
+  },
+  "confidence": 1.0,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

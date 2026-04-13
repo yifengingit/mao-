@@ -1,0 +1,47 @@
+{
+  "archive_id": "archive-person-0541",
+  "archive_type": "person_archive",
+  "name": "茜安",
+  "aliases": [],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "斯诺的女儿"
+    ],
+    "affiliations": []
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "洛伊斯",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-07-article-074"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "organizations": []
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-07",
+      "articles": [
+        {
+          "article_id": "mao-volume-07-article-074",
+          "mention_count": 1
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 1,
+    "total_articles": 1,
+    "total_volumes": 1,
+    "related_persons": 1,
+    "related_organizations": 0
+  },
+  "confidence": 0.9,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

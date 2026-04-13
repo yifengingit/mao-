@@ -1,0 +1,57 @@
+{
+  "archive_id": "archive-person-0299",
+  "archive_type": "person_archive",
+  "name": "俞平伯",
+  "aliases": [],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "作家",
+      "学者"
+    ],
+    "affiliations": []
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "胡适",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-05-article-047"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "organizations": []
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-05",
+      "articles": [
+        {
+          "article_id": "mao-volume-05-article-047",
+          "mention_count": 7
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-07",
+      "articles": [
+        {
+          "article_id": "mao-volume-07-article-003",
+          "mention_count": 7
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 7,
+    "total_articles": 2,
+    "total_volumes": 2,
+    "related_persons": 1,
+    "related_organizations": 0
+  },
+  "confidence": 1.0,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

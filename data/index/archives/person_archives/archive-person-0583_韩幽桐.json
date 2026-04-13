@@ -1,0 +1,43 @@
+{
+  "archive_id": "archive-person-0583",
+  "archive_type": "person_archive",
+  "name": "韩幽桐",
+  "aliases": [
+    "韩幽桐"
+  ],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "法律工作者",
+      "同志"
+    ],
+    "affiliations": [
+      "中国政法学会"
+    ]
+  },
+  "related_entities": {
+    "persons": [],
+    "organizations": []
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-06",
+      "articles": [
+        {
+          "article_id": "mao-volume-06-article-072",
+          "mention_count": 3
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 3,
+    "total_articles": 1,
+    "total_volumes": 1,
+    "related_persons": 0,
+    "related_organizations": 0
+  },
+  "confidence": 1.0,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

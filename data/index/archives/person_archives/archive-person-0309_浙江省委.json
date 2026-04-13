@@ -1,0 +1,49 @@
+{
+  "archive_id": "archive-person-0309",
+  "archive_type": "person_archive",
+  "name": "浙江省委",
+  "aliases": [],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "地方党组织"
+    ],
+    "affiliations": [
+      "中国共产党"
+    ]
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "中国共产党中央委员会",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-05-article-054"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "organizations": []
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-05",
+      "articles": [
+        {
+          "article_id": "mao-volume-05-article-054",
+          "mention_count": 1
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 1,
+    "total_articles": 1,
+    "total_volumes": 1,
+    "related_persons": 1,
+    "related_organizations": 0
+  },
+  "confidence": 0.9,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

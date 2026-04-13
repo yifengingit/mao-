@@ -1,0 +1,67 @@
+{
+  "volumes": [
+    {
+      "volume_id": "mao-volume-01",
+      "title": "毛泽东选集 第一卷",
+      "review_status": "reviewed",
+      "review_scope": "sample",
+      "issues_count": 0,
+      "last_reviewed_at": "2026-04-12",
+      "notes": "已完成首轮 sample 复核；已用清洗规则修复原段落断裂问题。"
+    },
+    {
+      "volume_id": "mao-volume-02",
+      "title": "毛泽东选集 第二卷",
+      "review_status": "reviewed",
+      "review_scope": "full",
+      "issues_count": 0,
+      "last_reviewed_at": "2026-04-12",
+      "notes": "full review 模板卷已完成；review-issue-0003 已通过清洗规则修复并关闭；开头、中段、尾段抽查未发现新增问题。"
+    },
+    {
+      "volume_id": "mao-volume-03",
+      "title": "毛泽东选集 第三卷",
+      "review_status": "reviewed",
+      "review_scope": "full",
+      "issues_count": 0,
+      "last_reviewed_at": "2026-04-12",
+      "notes": "full review 已完成；开头、中段、尾段抽查未发现新增问题。"
+    },
+    {
+      "volume_id": "mao-volume-04",
+      "title": "毛泽东选集 第四卷",
+      "review_status": "reviewed",
+      "review_scope": "full",
+      "issues_count": 0,
+      "last_reviewed_at": "2026-04-12",
+      "notes": "full review 已完成；开头、中段、尾段抽查未发现新增问题。"
+    },
+    {
+      "volume_id": "mao-volume-05",
+      "title": "毛泽东选集 第五卷",
+      "review_status": "reviewed",
+      "review_scope": "full",
+      "issues_count": 0,
+      "last_reviewed_at": "2026-04-12",
+      "notes": "full review 已完成；开头、中段、尾段抽查未发现新增问题。"
+    },
+    {
+      "volume_id": "mao-volume-06",
+      "title": "毛泽东选集 第六卷（静火版）",
+      "review_status": "reviewed",
+      "review_scope": "full",
+      "issues_count": 0,
+      "last_reviewed_at": "2026-04-12",
+      "notes": "full review 已完成；开头、中段、尾段抽查未发现新增问题。"
+    },
+    {
+      "volume_id": "mao-volume-07",
+      "title": "毛泽东选集 第七卷（静火版）",
+      "review_status": "reviewed",
+      "review_scope": "full",
+      "issues_count": 0,
+      "last_reviewed_at": "2026-04-12",
+      "notes": "full review 已完成；开头、中段、尾段抽查未发现新增问题。"
+    }
+  ]
+}

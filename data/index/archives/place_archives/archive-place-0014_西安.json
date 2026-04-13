@@ -1,0 +1,67 @@
+{
+  "archive_id": "archive-place-0014",
+  "archive_type": "place_archive",
+  "name": "西安",
+  "aliases": [],
+  "summary": "",
+  "attributes": {
+    "place_type": "城市",
+    "modern_name": [
+      "西安",
+      "西安市",
+      "西安市（陕西省）"
+    ]
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-01",
+      "articles": [
+        {
+          "article_id": "mao-volume-01-article-014"
+        },
+        {
+          "article_id": "mao-volume-01-article-016"
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-02",
+      "articles": [
+        {
+          "article_id": "mao-volume-02-article-002"
+        },
+        {
+          "article_id": "mao-volume-02-article-006"
+        },
+        {
+          "article_id": "mao-volume-02-article-019"
+        },
+        {
+          "article_id": "mao-volume-02-article-029"
+        },
+        {
+          "article_id": "mao-volume-02-article-030"
+        },
+        {
+          "article_id": "mao-volume-02-article-039"
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-03",
+      "articles": [
+        {
+          "article_id": "mao-volume-03-article-017"
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 18,
+    "total_articles": 9,
+    "total_volumes": 3
+  },
+  "confidence": 0.98,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

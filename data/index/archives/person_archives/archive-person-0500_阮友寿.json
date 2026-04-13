@@ -1,0 +1,102 @@
+{
+  "archive_id": "archive-person-0500",
+  "archive_type": "person_archive",
+  "name": "阮友寿",
+  "aliases": [],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "主席",
+      "南越民族解放阵线领导人",
+      "越南南方民族解放阵线中央委员会主席团主席"
+    ],
+    "affiliations": [
+      "越南南方民族解放阵线"
+    ]
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "阮文绍",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-07-article-056"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "胡志明",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-07-article-062"
+        ],
+        "confidence": 0.85
+      }
+    ],
+    "organizations": [
+      {
+        "name": "越南南方民族解放阵线",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-07-article-043",
+          "mao-volume-07-article-062"
+        ],
+        "confidence": 0.97
+      },
+      {
+        "name": "南越民族解放阵线",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-07-article-056"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "越南南方民族解放阵线中央委员会主席团",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-07-article-077",
+          "mao-volume-07-article-096"
+        ],
+        "confidence": 0.97
+      }
+    ]
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-07",
+      "articles": [
+        {
+          "article_id": "mao-volume-07-article-043",
+          "mention_count": 5
+        },
+        {
+          "article_id": "mao-volume-07-article-056",
+          "mention_count": 5
+        },
+        {
+          "article_id": "mao-volume-07-article-062",
+          "mention_count": 5
+        },
+        {
+          "article_id": "mao-volume-07-article-077",
+          "mention_count": 5
+        },
+        {
+          "article_id": "mao-volume-07-article-096",
+          "mention_count": 5
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 5,
+    "total_articles": 5,
+    "total_volumes": 1,
+    "related_persons": 2,
+    "related_organizations": 3
+  },
+  "confidence": 0.98,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

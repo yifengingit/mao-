@@ -1,0 +1,100 @@
+{
+  "archive_id": "archive-person-0189",
+  "archive_type": "person_archive",
+  "name": "刘峙",
+  "aliases": [],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "军事家",
+      "前线高级指挥官",
+      "总指挥"
+    ],
+    "affiliations": [
+      "国民党"
+    ]
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "国民党",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-04-article-007"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "李先念",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-04-article-007"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "王树声",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-04-article-007"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "蒋介石",
+        "relation_type": "leader_of",
+        "source_articles": [
+          "mao-volume-04-article-024"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "薛岳",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-04-article-024"
+        ],
+        "confidence": 0.8
+      }
+    ],
+    "organizations": [
+      {
+        "name": "蒋军",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-04-article-016"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-04",
+      "articles": [
+        {
+          "article_id": "mao-volume-04-article-007",
+          "mention_count": 3
+        },
+        {
+          "article_id": "mao-volume-04-article-016",
+          "mention_count": 3
+        },
+        {
+          "article_id": "mao-volume-04-article-024",
+          "mention_count": 3
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 3,
+    "total_articles": 3,
+    "total_volumes": 1,
+    "related_persons": 5,
+    "related_organizations": 1
+  },
+  "confidence": 1.0,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

@@ -1,0 +1,42 @@
+{
+  "archive_id": "archive-person-0320",
+  "archive_type": "person_archive",
+  "name": "唐绍仪",
+  "aliases": [],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "内阁总理",
+      "县长"
+    ],
+    "affiliations": [
+      "北洋军阀政府",
+      "广东中山县"
+    ]
+  },
+  "related_entities": {
+    "persons": [],
+    "organizations": []
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-05",
+      "articles": [
+        {
+          "article_id": "mao-volume-05-article-067",
+          "mention_count": 1
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 1,
+    "total_articles": 1,
+    "total_volumes": 1,
+    "related_persons": 0,
+    "related_organizations": 0
+  },
+  "confidence": 1.0,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

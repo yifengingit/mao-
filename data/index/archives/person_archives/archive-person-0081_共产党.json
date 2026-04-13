@@ -1,0 +1,204 @@
+{
+  "archive_id": "archive-person-0081",
+  "archive_type": "person_archive",
+  "name": "共产党",
+  "aliases": [
+    "中国共产党"
+  ],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "政治组织"
+    ],
+    "affiliations": []
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "冯玉祥",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-01-article-012"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "陈独秀",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-02-article-006",
+          "mao-volume-05-article-062"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "蒋介石",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-02-article-006",
+          "mao-volume-05-article-062"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "红军",
+        "relation_type": "leader_of",
+        "source_articles": [
+          "mao-volume-02-article-008"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "毛泽东",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-02-article-008",
+          "mao-volume-02-article-019"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "name": "日本帝国主义",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-02-article-008"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "汪精卫",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-02-article-019"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "董必武",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-03-article-021"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "孙中山",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-03-article-021"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "李鼎铭",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-03-article-025"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "李立三",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-05-article-062"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "王明",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-05-article-062"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "张国焘",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-05-article-062"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "高岗",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-05-article-062"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "丁玲",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-05-article-078"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "冯雪峰",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-05-article-078"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "邓小平",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-05-article-078"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "吴晗",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-07-article-003"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "翦伯赞",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-07-article-003"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "王佐",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-07-article-072"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "organizations": []
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-02",
+      "articles": [
+        {
+          "article_id": "mao-volume-02-article-008",
+          "mention_count": 2
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 2,
+    "total_articles": 1,
+    "total_volumes": 1,
+    "related_persons": 20,
+    "related_organizations": 0
+  },
+  "confidence": 1.0,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

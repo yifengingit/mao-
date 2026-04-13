@@ -1,0 +1,84 @@
+{
+  "archive_id": "archive-person-0220",
+  "archive_type": "person_archive",
+  "name": "徐向前",
+  "aliases": [],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "军事家",
+      "老党员"
+    ],
+    "affiliations": [
+      "中国人民解放军"
+    ]
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "周士第",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-04-article-039"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "阎锡山",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-04-article-039"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "毛泽东",
+        "relation_type": "leader_of",
+        "source_articles": [
+          "mao-volume-04-article-039"
+        ],
+        "confidence": 0.8
+      }
+    ],
+    "organizations": [
+      {
+        "name": "中央文革小组",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-07-article-031"
+        ],
+        "confidence": 1.0
+      }
+    ]
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-04",
+      "articles": [
+        {
+          "article_id": "mao-volume-04-article-039",
+          "mention_count": 3
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-07",
+      "articles": [
+        {
+          "article_id": "mao-volume-07-article-031",
+          "mention_count": 3
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 3,
+    "total_articles": 2,
+    "total_volumes": 2,
+    "related_persons": 3,
+    "related_organizations": 1
+  },
+  "confidence": 1.0,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

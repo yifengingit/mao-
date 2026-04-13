@@ -1,0 +1,129 @@
+{
+  "archive_id": "archive-person-0430",
+  "archive_type": "person_archive",
+  "name": "胡志明",
+  "aliases": [
+    "胡伯伯"
+  ],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "主席",
+      "伟大领袖",
+      "政治家",
+      "越南民主共和国领导人",
+      "越南革命领袖",
+      "革命家"
+    ],
+    "affiliations": [
+      "越南",
+      "越南劳动党"
+    ]
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "毛泽东",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-07-article-009"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "阮友寿",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-07-article-062"
+        ],
+        "confidence": 0.85
+      }
+    ],
+    "organizations": [
+      {
+        "name": "法国",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-06-article-058"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "美帝国主义",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-06-article-058"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "越南人民",
+        "relation_type": "leader_of",
+        "source_articles": [
+          "mao-volume-07-article-043",
+          "mao-volume-07-article-077",
+          "mao-volume-07-article-096"
+        ],
+        "confidence": 0.92
+      },
+      {
+        "name": "越南",
+        "relation_type": "leader_of",
+        "source_articles": [
+          "mao-volume-07-article-056"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-06",
+      "articles": [
+        {
+          "article_id": "mao-volume-06-article-058",
+          "mention_count": 17
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-07",
+      "articles": [
+        {
+          "article_id": "mao-volume-07-article-009",
+          "mention_count": 17
+        },
+        {
+          "article_id": "mao-volume-07-article-043",
+          "mention_count": 17
+        },
+        {
+          "article_id": "mao-volume-07-article-056",
+          "mention_count": 17
+        },
+        {
+          "article_id": "mao-volume-07-article-062",
+          "mention_count": 17
+        },
+        {
+          "article_id": "mao-volume-07-article-077",
+          "mention_count": 17
+        },
+        {
+          "article_id": "mao-volume-07-article-096",
+          "mention_count": 17
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 17,
+    "total_articles": 7,
+    "total_volumes": 2,
+    "related_persons": 2,
+    "related_organizations": 4
+  },
+  "confidence": 0.99,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

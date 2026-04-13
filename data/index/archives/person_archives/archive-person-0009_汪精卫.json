@@ -1,0 +1,248 @@
+{
+  "archive_id": "archive-person-0009",
+  "archive_type": "person_archive",
+  "name": "汪精卫",
+  "aliases": [
+    "汪派",
+    "汪精卫",
+    "汪记国民党",
+    "汪逆"
+  ],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "亲日派大资产阶级的政治代表",
+      "伪政府领导人",
+      "卖国投降者",
+      "卖国者",
+      "卖国贼",
+      "帝国主义走狗",
+      "投降派",
+      "政治人物",
+      "政治家",
+      "日本帝国主义的走狗",
+      "汉奸"
+    ],
+    "affiliations": [
+      "中国",
+      "伪中央",
+      "伪国民政府",
+      "伪政府",
+      "傀儡政府",
+      "国民党",
+      "日本帝国主义及其走狗",
+      "日本帝国主义走狗",
+      "日汪卖国条约",
+      "汉奸党",
+      "汪伪政权",
+      "汪记国民党"
+    ]
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "陈公博",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-01-article-003"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "何应钦",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-01-article-014"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "蒋介石",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-01-article-014",
+          "mao-volume-02-article-019",
+          "mao-volume-02-article-028",
+          "mao-volume-04-article-017"
+        ],
+        "confidence": 0.88
+      },
+      {
+        "name": "涂正坤",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-02-article-017"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "罗梓铭",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-02-article-017"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "日本",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-02-article-018"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "毛泽东",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-02-article-019"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "共产党",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-02-article-019"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "国民党",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-02-article-028",
+          "mao-volume-03-article-017"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "张君劢",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-02-article-030"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "叶青",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-02-article-030"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "总理",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-02-article-032"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "日本帝国主义",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-02-article-033"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "王揖唐",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-02-article-038"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "石友三",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-02-article-038"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "希特勒",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-03-article-017"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "墨索里尼",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-03-article-017"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "东条英机",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-03-article-017"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "中国共产党",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-04-article-071"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "organizations": [
+      {
+        "name": "国民党反共顽固派",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-02-article-029"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "日本法西斯",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-03-article-017"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "日本军国主义",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-06-article-058"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-01",
+      "articles": [
+        {
+          "article_id": "mao-volume-01-article-003",
+          "mention_count": 72
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 72,
+    "total_articles": 1,
+    "total_volumes": 5,
+    "related_persons": 19,
+    "related_organizations": 3
+  },
+  "confidence": 0.96,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

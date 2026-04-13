@@ -1,0 +1,60 @@
+{
+  "archive_id": "archive-person-0424",
+  "archive_type": "person_archive",
+  "name": "王海蓉",
+  "aliases": [
+    "王"
+  ],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "学生",
+      "谈话对象"
+    ],
+    "affiliations": [
+      "学校"
+    ]
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "章会娴",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-06-article-057"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "毛泽东",
+        "relation_type": "leader_of",
+        "source_articles": [
+          "mao-volume-06-article-057"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "organizations": []
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-06",
+      "articles": [
+        {
+          "article_id": "mao-volume-06-article-057",
+          "mention_count": 16
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 16,
+    "total_articles": 1,
+    "total_volumes": 1,
+    "related_persons": 2,
+    "related_organizations": 0
+  },
+  "confidence": 1.0,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

@@ -1,0 +1,47 @@
+{
+  "archive_id": "archive-place-0006",
+  "archive_type": "place_archive",
+  "name": "福建",
+  "aliases": [
+    "福建"
+  ],
+  "summary": "",
+  "attributes": {
+    "place_type": "省份",
+    "modern_name": "福建省"
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-01",
+      "articles": [
+        {
+          "article_id": "mao-volume-01-article-012"
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-03",
+      "articles": [
+        {
+          "article_id": "mao-volume-03-article-031"
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-04",
+      "articles": [
+        {
+          "article_id": "mao-volume-04-article-020"
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 4,
+    "total_articles": 3,
+    "total_volumes": 3
+  },
+  "confidence": 1.0,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

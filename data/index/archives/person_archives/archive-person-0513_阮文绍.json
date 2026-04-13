@@ -1,0 +1,73 @@
+{
+  "archive_id": "archive-person-0513",
+  "archive_type": "person_archive",
+  "name": "阮文绍",
+  "aliases": [
+    "阮文绍集团"
+  ],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "南越傀儡政府领导人",
+      "集团领导人"
+    ],
+    "affiliations": [
+      "越南南方"
+    ]
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "阮友寿",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-07-article-056"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "美国",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-07-article-097"
+        ],
+        "confidence": 1.0
+      }
+    ],
+    "organizations": [
+      {
+        "name": "南越傀儡政府",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-07-article-056"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-07",
+      "articles": [
+        {
+          "article_id": "mao-volume-07-article-056",
+          "mention_count": 2
+        },
+        {
+          "article_id": "mao-volume-07-article-097",
+          "mention_count": 2
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 2,
+    "total_articles": 2,
+    "total_volumes": 1,
+    "related_persons": 2,
+    "related_organizations": 1
+  },
+  "confidence": 0.95,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

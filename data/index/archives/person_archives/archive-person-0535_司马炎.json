@@ -1,0 +1,51 @@
+{
+  "archive_id": "archive-person-0535",
+  "archive_type": "person_archive",
+  "name": "司马炎",
+  "aliases": [
+    "晋主"
+  ],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "皇帝"
+    ],
+    "affiliations": [
+      "晋朝"
+    ]
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "杜预",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-07-article-070"
+        ],
+        "confidence": 1.0
+      }
+    ],
+    "organizations": []
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-07",
+      "articles": [
+        {
+          "article_id": "mao-volume-07-article-070",
+          "mention_count": 1
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 1,
+    "total_articles": 1,
+    "total_volumes": 1,
+    "related_persons": 1,
+    "related_organizations": 0
+  },
+  "confidence": 1.0,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

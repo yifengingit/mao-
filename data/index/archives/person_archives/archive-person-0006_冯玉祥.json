@@ -1,0 +1,106 @@
+{
+  "archive_id": "archive-person-0006",
+  "archive_type": "person_archive",
+  "name": "冯玉祥",
+  "aliases": [
+    "冯"
+  ],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "军事人物",
+      "军阀",
+      "国民党新军阀",
+      "抗日人物",
+      "抗日同盟军领导人",
+      "革命军将领"
+    ],
+    "affiliations": [
+      "国民党",
+      "抗日同盟军"
+    ]
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "蒋介石",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-01-article-003"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "桂系军阀",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-01-article-003"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "阎锡山",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-01-article-003"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "张作霖",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-01-article-003"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "共产党",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-01-article-012"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "organizations": [
+      {
+        "name": "国民党新军阀",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-01-article-003"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "革命",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-01-article-012"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-01",
+      "articles": [
+        {
+          "article_id": "mao-volume-01-article-003",
+          "mention_count": 10
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 10,
+    "total_articles": 1,
+    "total_volumes": 1,
+    "related_persons": 5,
+    "related_organizations": 2
+  },
+  "confidence": 0.94,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

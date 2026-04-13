@@ -1,0 +1,44 @@
+{
+  "archive_id": "archive-place-0032",
+  "archive_type": "place_archive",
+  "name": "卢沟桥",
+  "aliases": [],
+  "summary": "",
+  "attributes": {
+    "place_type": "地标",
+    "modern_name": [
+      "卢沟桥",
+      "卢沟桥（位于北京市丰台区）"
+    ]
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-02",
+      "articles": [
+        {
+          "article_id": "mao-volume-02-article-001"
+        },
+        {
+          "article_id": "mao-volume-02-article-002"
+        },
+        {
+          "article_id": "mao-volume-02-article-006"
+        },
+        {
+          "article_id": "mao-volume-02-article-007"
+        },
+        {
+          "article_id": "mao-volume-02-article-016"
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 9,
+    "total_articles": 5,
+    "total_volumes": 1
+  },
+  "confidence": 0.98,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

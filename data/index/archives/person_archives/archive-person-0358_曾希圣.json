@@ -1,0 +1,68 @@
+{
+  "archive_id": "archive-person-0358",
+  "archive_type": "person_archive",
+  "name": "曾希圣",
+  "aliases": [],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "政治家",
+      "省委书记"
+    ],
+    "affiliations": [
+      "中国共产党",
+      "安徽省委"
+    ]
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "毛泽东",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-06-article-014"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "organizations": [
+      {
+        "name": "安徽省委",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-06-article-024"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-06",
+      "articles": [
+        {
+          "article_id": "mao-volume-06-article-014",
+          "mention_count": 3
+        },
+        {
+          "article_id": "mao-volume-06-article-024",
+          "mention_count": 3
+        },
+        {
+          "article_id": "mao-volume-06-article-043",
+          "mention_count": 3
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 3,
+    "total_articles": 3,
+    "total_volumes": 1,
+    "related_persons": 1,
+    "related_organizations": 1
+  },
+  "confidence": 1.0,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

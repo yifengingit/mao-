@@ -1,0 +1,58 @@
+{
+  "archive_id": "archive-person-0367",
+  "archive_type": "person_archive",
+  "name": "达赖喇嘛",
+  "aliases": [],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "宗教领袖"
+    ],
+    "affiliations": [
+      "西藏"
+    ]
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "尼赫鲁",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-06-article-019"
+        ],
+        "confidence": 0.7
+      }
+    ],
+    "organizations": [
+      {
+        "name": "西藏叛乱分子",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-06-article-019"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-06",
+      "articles": [
+        {
+          "article_id": "mao-volume-06-article-019",
+          "mention_count": 1
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 1,
+    "total_articles": 1,
+    "total_volumes": 1,
+    "related_persons": 1,
+    "related_organizations": 1
+  },
+  "confidence": 0.9,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

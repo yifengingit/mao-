@@ -1,0 +1,90 @@
+{
+  "archive_id": "archive-person-0416",
+  "archive_type": "person_archive",
+  "name": "华国锋",
+  "aliases": [
+    "国锋"
+  ],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "中共中央第一副主席",
+      "总理",
+      "政治人物",
+      "湖南省委同志"
+    ],
+    "affiliations": [
+      "中国共产党",
+      "湖南省委"
+    ]
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "李瑞山",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-06-article-052"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "毛远新",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-07-article-098"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "毛泽东",
+        "relation_type": "leader_of",
+        "source_articles": [
+          "mao-volume-07-article-098",
+          "mao-volume-07-article-098"
+        ],
+        "confidence": 1.0
+      }
+    ],
+    "organizations": [
+      {
+        "name": "湖南省委",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-06-article-052"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-06",
+      "articles": [
+        {
+          "article_id": "mao-volume-06-article-052",
+          "mention_count": 5
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-07",
+      "articles": [
+        {
+          "article_id": "mao-volume-07-article-098",
+          "mention_count": 5
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 5,
+    "total_articles": 2,
+    "total_volumes": 2,
+    "related_persons": 3,
+    "related_organizations": 1
+  },
+  "confidence": 1.0,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

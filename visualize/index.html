@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>毛泽东选集 · 知识图谱</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  background: #0d1117; color: #c9d1d9;
+  font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  overflow: hidden; height: 100vh;
+}
+
+/* ── Layout ───────────────────────────────────── */
+#app { display: flex; flex-direction: column; height: 100vh; }
+
+/* Top bar */
+#topbar {
+  display: flex; align-items: center; gap: 12px;
+  padding: 0 18px; height: 48px;
+  background: #161b22; border-bottom: 1px solid #21262d;
+  flex-shrink: 0; z-index: 20;
+}
+.brand { font-size: 15px; font-weight: 600; color: #e6edf3; letter-spacing: 0.3px; }
+.brand-sub { font-size: 11px; color: #484f58; margin-left: 8px; }
+.spacer { flex: 1; }
+
+/* Density toggle */
+#density-toggle { display: flex; gap: 0; border: 1px solid #30363d; border-radius: 6px; overflow: hidden; }
+.dt-btn {
+  padding: 5px 11px; font-size: 12px; cursor: pointer; color: #8b949e;
+  background: transparent; border: none; border-right: 1px solid #30363d;
+  transition: background 0.15s, color 0.15s; white-space: nowrap;
+}
+.dt-btn:last-child { border-right: none; }
+.dt-btn.active { background: #1f6feb; color: #fff; }
+.dt-btn:hover:not(.active) { background: #21262d; color: #c9d1d9; }
+
+/* Search */
+#search {
+  padding: 5px 10px; background: #21262d; border: 1px solid #30363d;
+  border-radius: 6px; color: #c9d1d9; font-size: 12px; outline: none;
+  width: 160px; transition: border-color 0.15s;
+}
+#search:focus { border-color: #58a6ff; }
+#search::placeholder { color: #484f58; }
+
+/* Stats badge */
+#stats-badge { font-size: 11px; color: #484f58; white-space: nowrap; }
+
+/* Main row */
+#main { display: flex; flex: 1; overflow: hidden; min-height: 0; }
+
+/* Graph */
+#graph-wrap { flex: 1; position: relative; overflow: hidden; background: #0d1117; }
+#canvas { width: 100%; height: 100%; display: block; cursor: grab; }
+#canvas:active { cursor: grabbing; }
+
+/* Loading overlay */
+#loading {
+  position: absolute; inset: 0;
+  display: flex; align-items: center; justify-content: center;
+  background: #0d1117; z-index: 30; transition: opacity 0.5s;
+  flex-direction: column; gap: 12px;
+}
+#loading.fade { opacity: 0; pointer-events: none; }
+.loading-dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: #1f6feb; display: inline-block;
+  animation: pulse 1.2s ease-in-out infinite;
+}
+.loading-dot:nth-child(2) { animation-delay: 0.2s; background: #388bfd; }
+.loading-dot:nth-child(3) { animation-delay: 0.4s; background: #58a6ff; }
+.loading-dots { display: flex; gap: 6px; }
+.loading-text { font-size: 12px; color: #484f58; }
+@keyframes pulse { 0%,100% { transform: scale(0.6); opacity: 0.4; } 50% { transform: scale(1); opacity: 1; } }
+
+/* Bio mode badge */
+#bio-badge {
+  position: absolute; top: 12px; left: 50%; transform: translateX(-50%);
+  background: rgba(31,111,235,0.9); color: #fff; padding: 5px 16px;
+  border-radius: 20px; font-size: 12px; font-weight: 600;
+  display: none; pointer-events: none; z-index: 10;
+  box-shadow: 0 2px 8px rgba(31,111,235,0.4);
+}
+#bio-badge.show { display: block; }
+
+/* ── Timeline ──────────────────────────────────── */
+#timeline {
+  position: absolute; bottom: 0; left: 0; right: 0;
+  padding: 8px 18px 10px;
+  background: linear-gradient(to top, rgba(13,17,23,0.98) 80%, transparent);
+  z-index: 10; user-select: none;
+}
+#tl-row { display: flex; align-items: center; gap: 10px; margin-bottom: 5px; }
+#tl-year { color: #58a6ff; font-size: 12px; font-weight: 600; font-family: monospace; min-width: 38px; }
+#tl-info { font-size: 11px; color: #484f58; flex: 1; }
+#play-btn {
+  background: #21262d; color: #8b949e; border: 1px solid #30363d;
+  border-radius: 5px; padding: 3px 10px; font-size: 11px; cursor: pointer;
+}
+#play-btn:hover { background: #1f6feb; color: #fff; border-color: #1f6feb; }
+#tl-track { height: 4px; background: #21262d; border-radius: 2px; position: relative; cursor: pointer; margin-bottom: 4px; }
+#tl-fill { height: 100%; background: #1f6feb; border-radius: 2px; pointer-events: none; }
+#tl-handle {
+  position: absolute; top: 50%; transform: translate(-50%, -50%);
+  width: 12px; height: 12px; background: #58a6ff; border: 2px solid #0d1117;
+  border-radius: 50%; cursor: grab;
+}
+#tl-ticks { display: flex; justify-content: space-between; color: #30363d; font-size: 10px; font-family: monospace; }
+#tl-hist { height: 20px; margin-bottom: 3px; }
+#tl-hist svg { display: block; }
+
+/* ── Right panel ──────────────────────────────── */
+#right-panel {
+  width: 0; flex-shrink: 0; overflow: hidden;
+  background: #161b22; border-left: 1px solid #21262d;
+  display: flex; flex-direction: column;
+  transition: width 0.25s cubic-bezier(0.4,0,0.2,1);
+}
+#right-panel.open { width: 310px; }
+
+#panel-hd {
+  padding: 14px 16px 12px; border-bottom: 1px solid #21262d;
+  flex-shrink: 0; position: relative;
+}
+#panel-close {
+  position: absolute; top: 12px; right: 12px;
+  background: none; border: none; color: #484f58; font-size: 14px;
+  cursor: pointer; line-height: 1; padding: 4px;
+}
+#panel-close:hover { color: #c9d1d9; }
+#panel-name {
+  font-size: 18px; font-weight: 700; color: #e6edf3; line-height: 1.3;
+  padding-right: 24px; margin-bottom: 3px;
+}
+#panel-sub { font-size: 12px; color: #8b949e; margin-bottom: 8px; }
+#panel-tags { display: flex; flex-wrap: wrap; gap: 4px; }
+.tag {
+  display: inline-flex; align-items: center; gap: 4px;
+  font-size: 11px; padding: 2px 8px; border-radius: 20px; font-weight: 500;
+}
+.tag.person { background: rgba(31,111,235,0.15); color: #79c0ff; border: 1px solid rgba(31,111,235,0.3); }
+.tag.place  { background: rgba(63,185,80,0.12); color: #7ee787; border: 1px solid rgba(63,185,80,0.25); }
+.tag.organization { background: rgba(210,153,34,0.12); color: #e3b341; border: 1px solid rgba(210,153,34,0.25); }
+.tag.stat { background: #21262d; color: #8b949e; border: 1px solid #30363d; }
+
+#panel-body { flex: 1; overflow-y: auto; padding: 14px 16px; }
+#panel-body::-webkit-scrollbar { width: 3px; }
+#panel-body::-webkit-scrollbar-thumb { background: #30363d; border-radius: 2px; }
+
+.sec-title {
+  font-size: 11px; font-weight: 600; color: #484f58; letter-spacing: 0.8px;
+  text-transform: uppercase; margin: 14px 0 8px; padding-bottom: 4px;
+  border-bottom: 1px solid #21262d;
+}
+.sec-title:first-child { margin-top: 0; }
+
+/* Stat row */
+.stat-row { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.stat-cell { background: #0d1117; border: 1px solid #21262d; border-radius: 5px; padding: 8px 10px; }
+.stat-val { font-size: 18px; font-weight: 700; color: #e6edf3; line-height: 1; }
+.stat-lbl { font-size: 10px; color: #484f58; margin-top: 2px; }
+
+/* Bio progress */
+.bio-progress { display: flex; align-items: center; gap: 8px; font-size: 11px; color: #484f58; margin-bottom: 6px; }
+.bio-track { flex: 1; height: 4px; background: #21262d; border-radius: 2px; }
+.bio-fill { height: 100%; background: #1f6feb; border-radius: 2px; transition: width 0.3s; }
+
+/* Passage card */
+.passage {
+  border: 1px solid #21262d; border-radius: 6px; padding: 10px 12px;
+  margin-bottom: 8px; background: #0d1117; cursor: default;
+}
+.passage-title { font-size: 12px; color: #58a6ff; margin-bottom: 2px;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.passage-date { font-size: 10px; color: #484f58; margin-bottom: 6px; }
+.passage-body {
+  font-size: 12px; line-height: 1.7; color: #8b949e;
+  border-left: 2px solid #1f6feb; padding-left: 8px;
+}
+
+/* Connection item */
+.conn {
+  display: flex; align-items: center; gap: 8px;
+  padding: 6px 0; border-bottom: 1px solid #161b22; cursor: pointer;
+}
+.conn:hover { padding: 6px 4px; margin: 0 -4px; border-radius: 4px; background: #0d1117; }
+.conn:last-child { border-bottom: none; }
+.conn-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+.conn-name { font-size: 12px; color: #c9d1d9; flex: 1; }
+.conn-rel { font-size: 10px; color: #484f58; }
+.conn-yr { font-size: 10px; color: #30363d; font-family: monospace; }
+
+/* Panel footer */
+#panel-ft {
+  padding: 10px 14px; border-top: 1px solid #21262d;
+  display: flex; gap: 6px; flex-shrink: 0;
+}
+.ft-btn {
+  flex: 1; padding: 7px 4px; border: 1px solid #30363d;
+  border-radius: 5px; background: #0d1117; color: #8b949e;
+  font-size: 11px; cursor: pointer; text-align: center;
+}
+.ft-btn:hover { background: #21262d; color: #c9d1d9; }
+.ft-btn.primary { background: #1c2d4a; color: #58a6ff; border-color: #1f3d6e; }
+.ft-btn.primary:hover { background: #1f6feb; color: #fff; border-color: #1f6feb; }
+
+/* Tooltip */
+#tt {
+  position: fixed; pointer-events: none; z-index: 50; opacity: 0;
+  transition: opacity 0.1s; max-width: 220px;
+  background: #161b22; border: 1px solid #30363d;
+  border-radius: 8px; padding: 10px 13px; font-size: 12px; line-height: 1.6;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.5);
+}
+#tt.show { opacity: 1; }
+#tt .tt-name { font-size: 14px; font-weight: 700; color: #e6edf3; margin-bottom: 4px; }
+#tt .tt-row { font-size: 11px; color: #8b949e; }
+
+/* Legend */
+#legend {
+  position: absolute; bottom: 90px; right: 14px; z-index: 10;
+  background: #161b22; border: 1px solid #21262d; border-radius: 7px;
+  padding: 8px 12px; font-size: 11px; color: #8b949e;
+}
+.leg-row { display: flex; align-items: center; gap: 7px; margin-bottom: 4px; }
+.leg-row:last-child { margin-bottom: 0; }
+.leg-dot { width: 8px; height: 8px; border-radius: 50%; }
+.leg-hint { font-size: 10px; color: #30363d; margin-top: 5px; line-height: 1.5; }
+</style>
+</head>
+<body>
+<div id="app">
+
+  <!-- Top bar -->
+  <div id="topbar">
+    <span class="brand">毛泽东选集 · 知识图谱</span>
+    <span id="stats-badge">加载中…</span>
+    <div class="spacer"></div>
+    <input id="search" type="text" placeholder="搜索人物、地点…">
+    <div id="density-toggle">
+      <button class="dt-btn active" data-deg="5">精要</button>
+      <button class="dt-btn" data-deg="3">扩展</button>
+      <button class="dt-btn" data-deg="0">全量</button>
+    </div>
+  </div>
+
+  <!-- Main -->
+  <div id="main">
+    <div id="graph-wrap">
+      <svg id="canvas"></svg>
+
+      <!-- Loading -->
+      <div id="loading">
+        <div class="loading-dots">
+          <div class="loading-dot"></div>
+          <div class="loading-dot"></div>
+          <div class="loading-dot"></div>
+        </div>
+        <div class="loading-text" id="loading-text">加载数据…</div>
+      </div>
+
+      <div id="bio-badge"></div>
+
+      <!-- Timeline -->
+      <div id="timeline">
+        <div id="tl-row">
+          <span style="color:#30363d;font-size:11px;">时间轴</span>
+          <span id="tl-year">全部</span>
+          <span id="tl-info"></span>
+          <button id="play-btn">▶ 播放</button>
+        </div>
+        <div id="tl-hist"><svg id="tl-hist-svg" height="20"></svg></div>
+        <div id="tl-track"><div id="tl-fill"></div><div id="tl-handle"></div></div>
+        <div id="tl-ticks"></div>
+      </div>
+
+      <!-- Legend -->
+      <div id="legend">
+        <div class="leg-row"><div class="leg-dot" style="background:#79c0ff"></div>人物</div>
+        <div class="leg-row"><div class="leg-dot" style="background:#7ee787"></div>地点</div>
+        <div class="leg-row"><div class="leg-dot" style="background:#e3b341"></div>组织</div>
+        <div class="leg-hint">节点大小 = 中心度<br>颜色 = 社群</div>
+      </div>
+    </div>
+
+    <!-- Right panel -->
+    <div id="right-panel">
+      <div id="panel-hd">
+        <button id="panel-close">✕</button>
+        <div id="panel-name"></div>
+        <div id="panel-sub"></div>
+        <div id="panel-tags"></div>
+      </div>
+      <div id="panel-body"></div>
+      <div id="panel-ft">
+        <div class="ft-btn primary" id="btn-bio">▶ 传记模式</div>
+        <div class="ft-btn" id="btn-reset">取消高亮</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="tt"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+<script>
+const GRAPH_PATH    = "/data/index/graph/graph.json";
+const EXCERPTS_PATH = "/data/index/graph/article_excerpts.json";
+
+const NODE_COLOR = { person: "#79c0ff", place: "#7ee787", organization: "#e3b341", unknown: "#8b949e" };
+const COMMUNITY_PALETTE = [...d3.schemeTableau10, ...d3.schemePastel1];
+
+function nodeColor(d) {
+  if (d.node_type !== "person") return NODE_COLOR[d.node_type] || NODE_COLOR.unknown;
+  return COMMUNITY_PALETTE[(d.community_id ?? 0) % COMMUNITY_PALETTE.length];
+}
+function nodeR(d) { return 4 + (d.betweenness_norm || 0) * 22; }
+
+// ── State ──────────────────────────────────────
+let minDegree  = 5;
+let searchText = "";
+let currentYear = 9999;
+let highlighted = null;
+let bioNode     = null;
+let playTimer   = null;
+let allNodes, allLinks, nodeById, minYear, maxYear;
+
+// ── Init ────────────────────────────────────────
+async function main() {
+  const loading = document.getElementById("loading");
+  const loadingText = document.getElementById("loading-text");
+
+  loadingText.textContent = "加载图谱数据…";
+  const [raw, excerpts] = await Promise.all([
+    d3.json(GRAPH_PATH),
+    d3.json(EXCERPTS_PATH).catch(() => ({})),
+  ]);
+  window.__excerpts = excerpts;
+
+  allNodes = raw.nodes;
+  allLinks = raw.links;
+  nodeById = Object.fromEntries(allNodes.map(n => [n.id, n]));
+
+  const years = allLinks.filter(l => l.first_date).map(l => +l.first_date.slice(0,4));
+  minYear = Math.min(...years);
+  maxYear = Math.max(...years);
+
+  const meta = raw.meta || {};
+  document.getElementById("stats-badge").textContent =
+    `${meta.node_count||allNodes.length} 节点 · ${meta.link_count||allLinks.length} 边 · ${meta.communities||"?"} 社群`;
+
+  buildTimeline();
+
+  loadingText.textContent = "构建图谱…";
+  await buildGraph(excerpts);
+
+  loading.classList.add("fade");
+  setTimeout(() => loading.style.display = "none", 600);
+}
+
+// ── Graph build ──────────────────────────────────
+function getFilteredData() {
+  const visNodes = allNodes.filter(d => {
+    if (d.degree < minDegree && minDegree > 0) return false;
+    if (searchText && !d.id.includes(searchText)) return false;
+    if (currentYear < 9999 && d.first_seen) {
+      if (+d.first_seen.slice(0,4) > currentYear) return false;
+    }
+    return true;
+  });
+  const visSet = new Set(visNodes.map(d => d.id));
+  const visLinks = allLinks.filter(l => {
+    const s = l.source?.id ?? l.source;
+    const t = l.target?.id ?? l.target;
+    if (!visSet.has(s) || !visSet.has(t)) return false;
+    if (currentYear < 9999 && l.first_date && +l.first_date.slice(0,4) > currentYear) return false;
+    return true;
+  });
+  return { visNodes, visLinks };
+}
+
+let sim, svgRoot, gMain, linkSel, linkHitSel, nodeSel, labelSel;
+
+async function buildGraph(excerpts) {
+  if (sim) sim.stop();
+
+  const wrap = document.getElementById("graph-wrap");
+  const W = wrap.clientWidth, H = wrap.clientHeight;
+  const svg = d3.select("#canvas");
+  svg.selectAll("*").remove();
+  svgRoot = svg;
+
+  const zoom = d3.zoom().scaleExtent([0.05, 12]).on("zoom", e => gMain.attr("transform", e.transform));
+  svg.call(zoom);
+  gMain = svg.append("g");
+
+  // arrow
+  svg.append("defs").append("marker")
+    .attr("id","arr").attr("viewBox","0 -4 8 8").attr("refX",14).attr("refY",0)
+    .attr("markerWidth",4).attr("markerHeight",4).attr("orient","auto")
+    .append("path").attr("d","M0,-4L8,0L0,4").attr("fill","#21262d");
+
+  const { visNodes, visLinks } = getFilteredData();
+  document.getElementById("loading-text").textContent = `布局 ${visNodes.length} 个节点…`;
+
+  // deep-clone nodes to avoid mutation across redraws
+  const simNodes = visNodes.map(d => ({ ...d }));
+  const nodeSimById = Object.fromEntries(simNodes.map(n => [n.id, n]));
+  const simLinks = visLinks.map(l => ({
+    ...l,
+    source: nodeSimById[l.source?.id ?? l.source] || (l.source?.id ?? l.source),
+    target: nodeSimById[l.target?.id ?? l.target] || (l.target?.id ?? l.target),
+  }));
+
+  // ── Draw ──
+  const linkG = gMain.append("g");
+  linkSel = linkG.selectAll("line").data(simLinks).join("line")
+    .attr("stroke", "#21262d")
+    .attr("stroke-width", d => Math.max(0.5, (d.confidence||0.8) * 1.5))
+    .attr("stroke-opacity", 0.6)
+    .attr("marker-end","url(#arr)");
+
+  linkHitSel = linkG.selectAll(".lh").data(simLinks).join("line")
+    .attr("class","lh").attr("stroke","transparent").attr("stroke-width",10)
+    .style("cursor","pointer");
+
+  const nodeG = gMain.append("g");
+  nodeSel = nodeG.selectAll("circle").data(simNodes).join("circle")
+    .attr("r", nodeR).attr("fill", nodeColor)
+    .attr("fill-opacity", 0.9)
+    .attr("stroke", "#0d1117").attr("stroke-width", 1.5)
+    .style("cursor","pointer")
+    .call(makeDrag());
+
+  const showAllLabels = visNodes.length <= 120;
+  const labelG = gMain.append("g");
+  labelSel = labelG.selectAll("text")
+    .data(simNodes.filter(d => showAllLabels || nodeR(d) >= 8)).join("text")
+    .text(d => d.id)
+    .attr("font-size", d => Math.max(10, Math.min(14, nodeR(d) * 0.85)))
+    .attr("fill", "#8b949e").attr("text-anchor","middle")
+    .attr("dy", d => -nodeR(d) - 3)
+    .style("pointer-events","none").style("user-select","none");
+
+  // ── Simulation ──
+  const chargeStr = visNodes.length < 120 ? -200 : visNodes.length < 300 ? -100 : -50;
+  const linkDist  = visNodes.length < 120 ? 80  : 55;
+
+  sim = d3.forceSimulation(simNodes)
+    .force("link", d3.forceLink(simLinks).id(d => d.id).distance(linkDist).strength(0.6))
+    .force("charge", d3.forceManyBody().strength(chargeStr))
+    .force("center", d3.forceCenter(W/2, H/2).strength(0.08))
+    .force("collision", d3.forceCollide().radius(d => nodeR(d) + 4))
+    .alphaDecay(0.025)
+    .on("tick", () => {
+      linkSel.attr("x1",d=>d.source.x).attr("y1",d=>d.source.y).attr("x2",d=>d.target.x).attr("y2",d=>d.target.y);
+      linkHitSel.attr("x1",d=>d.source.x).attr("y1",d=>d.source.y).attr("x2",d=>d.target.x).attr("y2",d=>d.target.y);
+      nodeSel.attr("cx",d=>d.x).attr("cy",d=>d.y);
+      labelSel.attr("x",d=>d.x).attr("y",d=>d.y);
+    })
+    .on("end", () => zoomToFit(zoom, W, H, simNodes));
+
+  // ── Events ──
+  const tt = document.getElementById("tt");
+  nodeSel
+    .on("mousemove", (ev, d) => {
+      const orig = nodeById[d.id];
+      const yr = orig.first_seen ? orig.first_seen.slice(0,4) : "?";
+      tt.innerHTML = `<div class="tt-name">${d.id}</div>
+        <div class="tt-row">首见 ${yr} · 关联 ${orig.degree||0} · 介数 ${orig.betweenness_centrality?.toFixed(4)||"—"}</div>
+        ${orig.roles?.length ? `<div class="tt-row" style="margin-top:2px">${orig.roles.slice(0,3).join("、")}</div>` : ""}`;
+      tt.classList.add("show");
+      tt.style.left = (ev.clientX+14)+"px";
+      tt.style.top  = (ev.clientY-10)+"px";
+    })
+    .on("mouseleave", () => tt.classList.remove("show"))
+    .on("click", (ev, d) => {
+      ev.stopPropagation();
+      const orig = nodeById[d.id];
+      if (highlighted === d.id) { clearHL(); }
+      else { highlighted = d.id; hlNode(d, simNodes, simLinks); showNodePanel(orig, excerpts, simNodes, simLinks); }
+    });
+
+  function onEdgeClick(ev, l) {
+    ev.stopPropagation();
+    highlighted = null; bioNode = null;
+    clearHL();
+    showEdgePanel(l, excerpts);
+  }
+  linkSel.on("click", onEdgeClick);
+  linkHitSel.on("click", onEdgeClick);
+
+  svg.on("click", () => { clearHL(); closePanel(); });
+
+  // highlight helpers
+  function getNeighbors(nodeId) {
+    const s = new Set([nodeId]);
+    simLinks.forEach(l => {
+      const src = l.source?.id ?? l.source;
+      const tgt = l.target?.id ?? l.target;
+      if (src === nodeId) s.add(tgt);
+      if (tgt === nodeId) s.add(src);
+    });
+    return s;
+  }
+  function hlNode(d, nodes, links) {
+    const nb = getNeighbors(d.id);
+    nodeSel.attr("fill-opacity", n => nb.has(n.id) ? 1 : 0.06).attr("stroke-width", n => n.id===d.id ? 3 : 1.5);
+    linkSel.attr("stroke", l => {
+      const s=l.source?.id??l.source, t=l.target?.id??l.target;
+      return (s===d.id||t===d.id) ? "#58a6ff" : "#0d1117";
+    }).attr("stroke-opacity", l => {
+      const s=l.source?.id??l.source, t=l.target?.id??l.target;
+      return (s===d.id||t===d.id) ? 1 : 0.03;
+    });
+    labelSel.attr("fill", n => nb.has(n.id) ? "#e6edf3" : "#21262d");
+  }
+  function clearHL() {
+    highlighted = null; bioNode = null; stopPlay();
+    document.getElementById("bio-badge").classList.remove("show");
+    nodeSel.attr("fill-opacity", 0.9).attr("stroke-width", 1.5);
+    linkSel.attr("stroke","#21262d").attr("stroke-opacity",0.6);
+    labelSel.attr("fill","#8b949e");
+  }
+
+  // bio mode
+  function startBio(orig, simNodes, simLinks) {
+    bioNode = orig;
+    stopPlay();
+    const fy = orig.first_seen ? +orig.first_seen.slice(0,4) : minYear;
+    setYear(fy);
+    const simD = simNodes.find(n => n.id === orig.id);
+    if (simD) hlNode(simD, simNodes, simLinks);
+    document.getElementById("bio-badge").textContent = `传记模式 · ${orig.id}`;
+    document.getElementById("bio-badge").classList.add("show");
+    playTimer = setInterval(() => {
+      if (currentYear >= maxYear) { stopPlay(); return; }
+      setYear(currentYear + 1);
+      const simD2 = simNodes.find(n => n.id === orig.id);
+      if (simD2) { hlNode(simD2, simNodes, simLinks); showNodePanel(orig, excerpts, simNodes, simLinks); }
+    }, 450);
+    document.getElementById("play-btn").textContent = "⏸ 暂停";
+  }
+
+  // Panel
+  function showNodePanel(orig, excerpts, simNodes, simLinks) {
+    const p = document.getElementById("right-panel");
+    p.classList.add("open");
+    document.getElementById("panel-name").textContent = orig.id;
+
+    const subParts = [];
+    if (orig.node_type==="person") subParts.push(...(orig.roles||[]).slice(0,3));
+    if (orig.node_type==="place" && orig.place_type) subParts.push(orig.place_type);
+    if (orig.node_type==="organization") subParts.push("组织");
+    document.getElementById("panel-sub").textContent = subParts.join(" · ") || "";
+
+    const tags = document.getElementById("panel-tags");
+    tags.innerHTML = "";
+    const mkTag = (cls, text) => { const t=document.createElement("span"); t.className=`tag ${cls}`; t.textContent=text; tags.appendChild(t); };
+    mkTag(orig.node_type, orig.node_type==="person"?"人物":orig.node_type==="place"?"地点":"组织");
+    if (orig.community_id != null) mkTag("stat","社群 "+orig.community_id);
+    if (orig.degree) mkTag("stat","关联 "+orig.degree);
+
+    const body = document.getElementById("panel-body");
+    body.innerHTML = "";
+
+    const fy = orig.first_seen?.slice(0,4)||"?", ly = orig.last_seen?.slice(0,4)||"?";
+    body.innerHTML += `<div class="sec-title">基本信息</div>
+      <div class="stat-row">
+        <div class="stat-cell"><div class="stat-val">${orig.mention_count||0}</div><div class="stat-lbl">提及次数</div></div>
+        <div class="stat-cell"><div class="stat-val">${orig.degree||0}</div><div class="stat-lbl">关联节点</div></div>
+        <div class="stat-cell"><div class="stat-val">${fy}</div><div class="stat-lbl">首次出现</div></div>
+        <div class="stat-cell"><div class="stat-val">${ly}</div><div class="stat-lbl">最后出现</div></div>
+      </div>`;
+
+    if (currentYear < 9999) {
+      const total = allLinks.filter(l=>{const s=l.source?.id??l.source,t=l.target?.id??l.target;return s===orig.id||t===orig.id;}).length;
+      const visible = allLinks.filter(l=>{const s=l.source?.id??l.source,t=l.target?.id??l.target;if(s!==orig.id&&t!==orig.id)return false;return !l.first_date||+l.first_date.slice(0,4)<=currentYear;}).length;
+      const pct = total>0?Math.round(visible/total*100):100;
+      body.innerHTML += `<div class="sec-title">传记进度（截至 ${currentYear}年）</div>
+        <div class="bio-progress"><span>${visible}/${total}</span><div class="bio-track"><div class="bio-fill" style="width:${pct}%"></div></div><span>${pct}%</span></div>`;
+    }
+
+    const incidents = allLinks.filter(l=>{const s=l.source?.id??l.source,t=l.target?.id??l.target;return (s===orig.id||t===orig.id)&&(l.evidence_items||[]).length>0;})
+      .sort((a,b)=>(a.first_date||"9999").localeCompare(b.first_date||"9999")).slice(0,5);
+
+    if (incidents.length) {
+      body.innerHTML += `<div class="sec-title">来源段落</div>`;
+      incidents.forEach(l => {
+        const ev = l.evidence_items[0];
+        const ctx = (ev.context||"").slice(0,100);
+        body.innerHTML += `<div class="passage"><div class="passage-title">${ev.article_title||ev.article_id}</div><div class="passage-date">${ev.date_iso||""}</div><div class="passage-body">${ctx}</div></div>`;
+      });
+    }
+
+    const neighbors = allLinks.filter(l=>{const s=l.source?.id??l.source,t=l.target?.id??l.target;return s===orig.id||t===orig.id;})
+      .filter(l=>currentYear>=9999||!l.first_date||+l.first_date.slice(0,4)<=currentYear)
+      .sort((a,b)=>(a.first_date||"9999").localeCompare(b.first_date||"9999")).slice(0,10);
+
+    if (neighbors.length) {
+      body.innerHTML += `<div class="sec-title">关联节点</div>`;
+      neighbors.forEach(l => {
+        const s=l.source?.id??l.source, t=l.target?.id??l.target;
+        const other = s===orig.id?t:s;
+        const ot = nodeById[other];
+        const col = NODE_COLOR[ot?.node_type]||"#8b949e";
+        const yr = l.first_date?l.first_date.slice(0,4):"";
+        body.innerHTML += `<div class="conn" data-id="${other}"><div class="conn-dot" style="background:${col}"></div><div class="conn-name">${other}</div><div class="conn-rel">${l.relation_type||""}</div><div class="conn-yr">${yr}</div></div>`;
+      });
+      body.querySelectorAll(".conn").forEach(el => el.addEventListener("click", () => {
+        const nd = nodeById[el.dataset.id];
+        if (nd) {
+          highlighted = nd.id;
+          const simD = simNodes.find(n=>n.id===nd.id);
+          if (simD) hlNode(simD, simNodes, simLinks);
+          showNodePanel(nd, excerpts, simNodes, simLinks);
+        }
+      }));
+    }
+
+    document.getElementById("btn-bio").onclick = () => startBio(orig, simNodes, simLinks);
+    document.getElementById("btn-reset").onclick = clearHL;
+  }
+
+  function showEdgePanel(l, excerpts) {
+    const p = document.getElementById("right-panel");
+    p.classList.add("open");
+    const s=l.source?.id??l.source, t=l.target?.id??l.target;
+    document.getElementById("panel-name").textContent = `${s} → ${t}`;
+    document.getElementById("panel-sub").textContent = l.relation_type||"";
+    const tags = document.getElementById("panel-tags");
+    tags.innerHTML = "";
+    if (l.first_date) { const tg=document.createElement("span");tg.className="tag stat";tg.textContent=l.first_date.slice(0,4)+"年";tags.appendChild(tg); }
+    const tg2=document.createElement("span");tg2.className="tag stat";tg2.textContent=`置信 ${((l.confidence||1)*100).toFixed(0)}%`;tags.appendChild(tg2);
+
+    const body = document.getElementById("panel-body");
+    body.innerHTML = "";
+    const items = l.evidence_items||[];
+    if (items.length) {
+      body.innerHTML += `<div class="sec-title">来源证据（${items.length} 条）</div>`;
+      items.slice(0,5).forEach(ev => {
+        body.innerHTML += `<div class="passage"><div class="passage-title">${ev.article_title||ev.article_id}</div><div class="passage-date">${ev.date_iso||""}</div><div class="passage-body">${ev.context||""}</div></div>`;
+      });
+    } else {
+      body.innerHTML = `<div style="color:#484f58;font-size:12px;margin-top:12px;text-align:center;">暂无证据文本</div>`;
+    }
+    document.getElementById("btn-bio").onclick = null;
+    document.getElementById("btn-bio").style.visibility = "hidden";
+    document.getElementById("btn-reset").onclick = clearHL;
+  }
+
+  document.getElementById("panel-close").onclick = () => { clearHL(); closePanel(); };
+  document.getElementById("btn-reset").onclick = clearHL;
+}
+
+function closePanel() {
+  document.getElementById("right-panel").classList.remove("open");
+  document.getElementById("btn-bio").style.visibility = "visible";
+}
+
+// ── Zoom to fit ──────────────────────────────────
+function zoomToFit(zoom, W, H, simNodes) {
+  if (!simNodes.length) return;
+  const xs = simNodes.map(d=>d.x), ys = simNodes.map(d=>d.y);
+  const x0=Math.min(...xs), x1=Math.max(...xs), y0=Math.min(...ys), y1=Math.max(...ys);
+  const dx=x1-x0||1, dy=y1-y0||1;
+  const pad = 60;
+  const scale = Math.min((W-pad*2)/dx, (H-pad*2)/dy, 3);
+  const tx = W/2 - scale*(x0+x1)/2;
+  const ty = H/2 - scale*(y0+y1)/2;
+  d3.select("#canvas").transition().duration(700).ease(d3.easeCubicOut)
+    .call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(scale));
+}
+
+// ── Drag ─────────────────────────────────────────
+function makeDrag() {
+  return d3.drag()
+    .on("start", (ev, d) => { if (!ev.active) sim.alphaTarget(0.2).restart(); d.fx=d.x; d.fy=d.y; })
+    .on("drag", (ev, d) => { d.fx=ev.x; d.fy=ev.y; })
+    .on("end", (ev, d) => { if (!ev.active) sim.alphaTarget(0); d.fx=null; d.fy=null; });
+}
+
+// ── Timeline ──────────────────────────────────────
+function buildTimeline() {
+  // histogram
+  const byYear = {};
+  allLinks.forEach(l => { if (l.first_date) { const y=+l.first_date.slice(0,4); byYear[y]=(byYear[y]||0)+1; } });
+  const maxVal = Math.max(...Object.values(byYear));
+  const svgEl = document.getElementById("tl-hist-svg");
+  const W = document.getElementById("timeline").offsetWidth - 36 || 600;
+  const H = 20; const span = maxYear - minYear || 1;
+  svgEl.setAttribute("width", W);
+  let bars = "";
+  for (const [y, cnt] of Object.entries(byYear)) {
+    const x = ((+y - minYear)/span) * W;
+    const h = Math.max(2, (cnt/maxVal)*H);
+    bars += `<rect x="${x.toFixed(1)}" y="${(H-h).toFixed(1)}" width="${Math.max(2,(W/span*0.8)).toFixed(1)}" height="${h.toFixed(1)}" fill="#21262d" rx="1" data-year="${y}"/>`;
+  }
+  svgEl.innerHTML = bars;
+
+  // ticks
+  const tickYrs = [minYear,1927,1930,1934,1937,1940,1945,1949,maxYear].filter((y,i,a)=>a.indexOf(y)===i&&y>=minYear&&y<=maxYear);
+  document.getElementById("tl-ticks").innerHTML = tickYrs.map(y=>`<span>${y}</span>`).join("");
+
+  // track interaction
+  const track = document.getElementById("tl-track");
+  let drag = false;
+  const posToYear = cx => { const r=track.getBoundingClientRect(); return Math.round(minYear+Math.max(0,Math.min(1,(cx-r.left)/r.width))*(maxYear-minYear)); };
+  track.addEventListener("mousedown", e => { drag=true; setYear(posToYear(e.clientX)); });
+  document.addEventListener("mousemove", e => { if (!drag) return; setYear(posToYear(e.clientX)); });
+  document.addEventListener("mouseup", () => { drag=false; });
+
+  document.getElementById("play-btn").addEventListener("click", () => {
+    if (playTimer) { stopPlay(); return; }
+    if (currentYear >= maxYear || currentYear === 9999) setYear(minYear);
+    document.getElementById("play-btn").textContent = "⏸ 暂停";
+    playTimer = setInterval(() => {
+      if (currentYear >= maxYear) { stopPlay(); return; }
+      setYear(currentYear + 1);
+    }, 300);
+  });
+}
+
+function setYear(y) {
+  currentYear = Math.max(minYear, Math.min(maxYear, y));
+  const pct = (currentYear-minYear)/(maxYear-minYear);
+  document.getElementById("tl-fill").style.width  = (pct*100)+"%";
+  document.getElementById("tl-handle").style.left = (pct*100)+"%";
+  document.getElementById("tl-year").textContent  = currentYear;
+  document.querySelectorAll("#tl-hist-svg rect").forEach(r => {
+    r.setAttribute("fill", +r.dataset.year<=currentYear ? "#1f6feb" : "#21262d");
+  });
+  if (sim) applyYearFilter();
+  updateInfo();
+}
+
+function applyYearFilter() {
+  if (!nodeSel) return;
+  nodeSel.attr("display", d => {
+    if (currentYear<9999&&d.first_seen&&+d.first_seen.slice(0,4)>currentYear) return "none";
+    return null;
+  });
+  linkSel.attr("display", l => {
+    if (currentYear<9999&&l.first_date&&+l.first_date.slice(0,4)>currentYear) return "none";
+    return null;
+  });
+  if (linkHitSel) linkHitSel.attr("display", l => {
+    if (currentYear<9999&&l.first_date&&+l.first_date.slice(0,4)>currentYear) return "none";
+    return null;
+  });
+}
+
+function updateInfo() {
+  if (currentYear < 9999) {
+    document.getElementById("tl-info").textContent = `截至 ${currentYear} 年`;
+  } else {
+    document.getElementById("tl-info").textContent = "";
+  }
+}
+
+function stopPlay() {
+  if (playTimer) { clearInterval(playTimer); playTimer = null; }
+  document.getElementById("play-btn").textContent = "▶ 播放";
+}
+
+// ── Density toggle ─────────────────────────────────
+document.querySelectorAll(".dt-btn").forEach(btn => {
+  btn.addEventListener("click", async () => {
+    document.querySelectorAll(".dt-btn").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    minDegree = +btn.dataset.deg;
+    currentYear = 9999;
+    document.getElementById("tl-year").textContent = "全部";
+    highlighted = null; bioNode = null;
+    stopPlay();
+    document.getElementById("loading").style.display = "flex";
+    document.getElementById("loading").classList.remove("fade");
+
+    const excerpts = window.__excerpts || {};
+    setTimeout(async () => {
+      await buildGraph(excerpts);
+      document.getElementById("loading").classList.add("fade");
+      setTimeout(() => document.getElementById("loading").style.display = "none", 600);
+    }, 50);
+  });
+});
+
+// ── Search ──────────────────────────────────────────
+document.getElementById("search").addEventListener("input", e => {
+  searchText = e.target.value.trim();
+  if (!nodeSel) return;
+  nodeSel.attr("display", d => searchText && !d.id.includes(searchText) ? "none" : null);
+  labelSel.attr("display", d => searchText && !d.id.includes(searchText) ? "none" : null);
+});
+
+// ── Boot ────────────────────────────────────────────
+main().catch(console.error);
+</script>
+</body>
+</html>

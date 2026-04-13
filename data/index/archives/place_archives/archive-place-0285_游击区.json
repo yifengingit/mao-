@@ -1,0 +1,31 @@
+{
+  "archive_id": "archive-place-0285",
+  "archive_type": "place_archive",
+  "name": "游击区",
+  "aliases": [
+    "游击区"
+  ],
+  "summary": "",
+  "attributes": {
+    "place_type": "地理区域",
+    "modern_name": null
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-04",
+      "articles": [
+        {
+          "article_id": "mao-volume-04-article-030"
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 1,
+    "total_articles": 1,
+    "total_volumes": 1
+  },
+  "confidence": 0.9,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

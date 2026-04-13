@@ -1,0 +1,15 @@
+{
+  "volume_id": "mao-volume-05",
+  "line_count": 3779,
+  "heading_count": 0,
+  "blank_line_count": 1845,
+  "digit_only_line_count": 0,
+  "needs_manual_review": true,
+  "manual_review_checks": [
+    "标题完整性",
+    "段落连贯性",
+    "页码回溯",
+    "OCR 错字",
+    "脚注/多栏/表格异常"
+  ]
+}

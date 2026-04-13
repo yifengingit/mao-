@@ -1,0 +1,67 @@
+{
+  "archive_id": "archive-person-0163",
+  "archive_type": "person_archive",
+  "name": "李鼎铭",
+  "aliases": [],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "党外人士",
+      "开明绅士"
+    ],
+    "affiliations": [
+      "陕甘宁边区"
+    ]
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "共产党",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-03-article-025"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "中国共产党",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-04-article-032"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "organizations": []
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-03",
+      "articles": [
+        {
+          "article_id": "mao-volume-03-article-025",
+          "mention_count": 2
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-04",
+      "articles": [
+        {
+          "article_id": "mao-volume-04-article-032",
+          "mention_count": 2
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 2,
+    "total_articles": 2,
+    "total_volumes": 2,
+    "related_persons": 2,
+    "related_organizations": 0
+  },
+  "confidence": 1.0,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

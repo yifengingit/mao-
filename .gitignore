@@ -1,0 +1,32 @@
+# PDF 源文件（版权材料 + 体积过大）
+data/raw/books/
+
+# 工具原始输出（可重新生成）
+data/markdown/
+
+# 临时中间产物
+data/staging/
+
+# 原始未去重实体（可从 deduplicated 回溯）
+data/index/entities/persons.raw.jsonl
+data/index/entities/persons.jsonl
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 临时截图
+*.tmp.png

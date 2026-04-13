@@ -1,0 +1,49 @@
+{
+  "archive_id": "archive-person-0025",
+  "archive_type": "person_archive",
+  "name": "马占山",
+  "aliases": [],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "抗日人物"
+    ],
+    "affiliations": [
+      "统治者营垒"
+    ]
+  },
+  "related_entities": {
+    "persons": [],
+    "organizations": [
+      {
+        "name": "抗日",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-01-article-012"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-01",
+      "articles": [
+        {
+          "article_id": "mao-volume-01-article-012",
+          "mention_count": 4
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 4,
+    "total_articles": 1,
+    "total_volumes": 1,
+    "related_persons": 0,
+    "related_organizations": 1
+  },
+  "confidence": 0.97,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

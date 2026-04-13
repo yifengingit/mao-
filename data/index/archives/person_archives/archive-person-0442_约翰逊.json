@@ -1,0 +1,97 @@
+{
+  "archive_id": "archive-person-0442",
+  "archive_type": "person_archive",
+  "name": "约翰逊",
+  "aliases": [
+    "总统先生",
+    "约翰逊先生",
+    "约翰逊政府"
+  ],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "总统",
+      "美国总统"
+    ],
+    "affiliations": [
+      "美国",
+      "美国政府"
+    ]
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "腊斯克",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-06-article-065"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "美国",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-07-article-056"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "尼克松",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-07-article-062"
+        ],
+        "confidence": 0.8
+      }
+    ],
+    "organizations": [
+      {
+        "name": "越南南方民族解放阵线",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-07-article-062"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-06",
+      "articles": [
+        {
+          "article_id": "mao-volume-06-article-065",
+          "mention_count": 13
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-07",
+      "articles": [
+        {
+          "article_id": "mao-volume-07-article-056",
+          "mention_count": 13
+        },
+        {
+          "article_id": "mao-volume-07-article-062",
+          "mention_count": 13
+        },
+        {
+          "article_id": "mao-volume-07-article-097",
+          "mention_count": 13
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 13,
+    "total_articles": 4,
+    "total_volumes": 2,
+    "related_persons": 3,
+    "related_organizations": 1
+  },
+  "confidence": 0.97,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

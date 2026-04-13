@@ -1,0 +1,107 @@
+{
+  "archive_id": "archive-person-0303",
+  "archive_type": "person_archive",
+  "name": "胡风",
+  "aliases": [],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "作家",
+      "反革命分子",
+      "反革命集团代表人物",
+      "文艺理论家"
+    ],
+    "affiliations": [
+      "胡风反革命集团"
+    ]
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "蒋介石",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-05-article-052",
+          "mao-volume-05-article-053"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "name": "舒芜",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-05-article-053"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "芦甸",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-05-article-053"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "张中晓",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-05-article-053"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "毛泽东",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-06-article-044"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "organizations": [
+      {
+        "name": "胡风反革命集团",
+        "relation_type": "leader_of",
+        "source_articles": [
+          "mao-volume-05-article-053"
+        ],
+        "confidence": 1.0
+      }
+    ]
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-05",
+      "articles": [
+        {
+          "article_id": "mao-volume-05-article-052",
+          "mention_count": 9
+        },
+        {
+          "article_id": "mao-volume-05-article-053",
+          "mention_count": 9
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-06",
+      "articles": [
+        {
+          "article_id": "mao-volume-06-article-044",
+          "mention_count": 9
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 9,
+    "total_articles": 3,
+    "total_volumes": 2,
+    "related_persons": 5,
+    "related_organizations": 1
+  },
+  "confidence": 1.0,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

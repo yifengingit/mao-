@@ -1,0 +1,29 @@
+{
+  "archive_id": "archive-place-0083",
+  "archive_type": "place_archive",
+  "name": "广州",
+  "aliases": [],
+  "summary": "",
+  "attributes": {
+    "place_type": "城市",
+    "modern_name": "广州市"
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-02",
+      "articles": [
+        {
+          "article_id": "mao-volume-02-article-013"
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 1,
+    "total_articles": 1,
+    "total_volumes": 1
+  },
+  "confidence": 1.0,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

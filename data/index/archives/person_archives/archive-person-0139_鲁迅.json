@@ -1,0 +1,121 @@
+{
+  "archive_id": "archive-person-0139",
+  "archive_type": "person_archive",
+  "name": "鲁迅",
+  "aliases": [],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "作家",
+      "思想家",
+      "文学家",
+      "评论家",
+      "革命家"
+    ],
+    "affiliations": [
+      "左翼作家联盟",
+      "左翼文艺运动"
+    ]
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "毛泽东",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-03-article-009",
+          "mao-volume-07-article-010"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "梁实秋",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-03-article-011"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "列宁",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-03-article-011"
+        ],
+        "confidence": 0.7
+      },
+      {
+        "name": "王明",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-07-article-005"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "金圣叹",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-07-article-093"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "organizations": [
+      {
+        "name": "党八股",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-03-article-008"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-03",
+      "articles": [
+        {
+          "article_id": "mao-volume-03-article-008",
+          "mention_count": 19
+        },
+        {
+          "article_id": "mao-volume-03-article-009",
+          "mention_count": 19
+        },
+        {
+          "article_id": "mao-volume-03-article-011",
+          "mention_count": 19
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-07",
+      "articles": [
+        {
+          "article_id": "mao-volume-07-article-005",
+          "mention_count": 19
+        },
+        {
+          "article_id": "mao-volume-07-article-010",
+          "mention_count": 19
+        },
+        {
+          "article_id": "mao-volume-07-article-093",
+          "mention_count": 19
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 19,
+    "total_articles": 6,
+    "total_volumes": 2,
+    "related_persons": 5,
+    "related_organizations": 1
+  },
+  "confidence": 1.0,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

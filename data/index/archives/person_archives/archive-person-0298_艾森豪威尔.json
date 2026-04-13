@@ -1,0 +1,91 @@
+{
+  "archive_id": "archive-person-0298",
+  "archive_type": "person_archive",
+  "name": "艾森豪威尔",
+  "aliases": [
+    "艾森豪威尔将军",
+    "艾森豪威尔总统"
+  ],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "军事家",
+      "政治家",
+      "美国总统"
+    ],
+    "affiliations": [
+      "美国",
+      "美国政府"
+    ]
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "毛泽东",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-05-article-045"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "杜勒斯",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-05-article-063"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "赫鲁晓夫",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-06-article-027",
+          "mao-volume-06-article-060",
+          "mao-volume-07-article-079"
+        ],
+        "confidence": 0.83
+      }
+    ],
+    "organizations": [
+      {
+        "name": "艾森豪威尔集团",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-06-article-026"
+        ],
+        "confidence": 1.0
+      }
+    ]
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-05",
+      "articles": [
+        {
+          "article_id": "mao-volume-05-article-045",
+          "mention_count": 9
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-06",
+      "articles": [
+        {
+          "article_id": "mao-volume-06-article-032",
+          "mention_count": 9
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 9,
+    "total_articles": 2,
+    "total_volumes": 3,
+    "related_persons": 3,
+    "related_organizations": 1
+  },
+  "confidence": 0.99,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

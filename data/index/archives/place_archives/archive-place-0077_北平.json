@@ -1,0 +1,51 @@
+{
+  "archive_id": "archive-place-0077",
+  "archive_type": "place_archive",
+  "name": "北平",
+  "aliases": [
+    "北京"
+  ],
+  "summary": "",
+  "attributes": {
+    "place_type": "城市",
+    "modern_name": [
+      "北京",
+      "北京市"
+    ]
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-02",
+      "articles": [
+        {
+          "article_id": "mao-volume-02-article-013"
+        },
+        {
+          "article_id": "mao-volume-02-article-017"
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-04",
+      "articles": [
+        {
+          "article_id": "mao-volume-04-article-017"
+        },
+        {
+          "article_id": "mao-volume-04-article-024"
+        },
+        {
+          "article_id": "mao-volume-04-article-039"
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 6,
+    "total_articles": 5,
+    "total_volumes": 2
+  },
+  "confidence": 0.98,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

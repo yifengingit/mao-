@@ -1,0 +1,29 @@
+{
+  "archive_id": "archive-place-0256",
+  "archive_type": "place_archive",
+  "name": "新疆",
+  "aliases": [],
+  "summary": "",
+  "attributes": {
+    "place_type": "省份",
+    "modern_name": "新疆维吾尔自治区"
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-04",
+      "articles": [
+        {
+          "article_id": "mao-volume-04-article-020"
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 1,
+    "total_articles": 1,
+    "total_volumes": 1
+  },
+  "confidence": 1.0,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

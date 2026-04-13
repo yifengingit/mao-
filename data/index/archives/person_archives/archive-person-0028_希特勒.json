@@ -1,0 +1,326 @@
+{
+  "archive_id": "archive-person-0028",
+  "archive_type": "person_archive",
+  "name": "希特勒",
+  "aliases": [],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "侵略者",
+      "军事家",
+      "德国元首",
+      "德国法西斯首领",
+      "德国纳粹党领导人",
+      "德国纳粹领导人",
+      "政治家",
+      "法西斯主义者",
+      "法西斯侵略者",
+      "法西斯德国领导人",
+      "纳粹党党魁",
+      "纳粹党领袖",
+      "纳粹德国元首",
+      "纳粹德国领导人"
+    ],
+    "affiliations": [
+      "德国",
+      "法西斯德国",
+      "纳粹党",
+      "纳粹德国"
+    ]
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "墨索里尼",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-01-article-015",
+          "mao-volume-02-article-015"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "张伯伦",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-02-article-020"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "达拉第",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-02-article-020"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "勃鲁齐区",
+        "relation_type": "leader_of",
+        "source_articles": [
+          "mao-volume-03-article-013"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "斯大林",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-03-article-013"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "name": "拿破仑",
+        "relation_type": "influenced_by",
+        "source_articles": [
+          "mao-volume-03-article-013"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "name": "汪精卫",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-03-article-017"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "毛泽东",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-03-article-030",
+          "mao-volume-07-article-067"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "日本军阀",
+        "relation_type": "cooperated_with",
+        "source_articles": [
+          "mao-volume-04-article-013"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "东条英机",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-04-article-069"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "佛朗哥",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-04-article-069"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "蒋介石",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-04-article-069"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "沙皇",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-05-article-079"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "安娜·路易斯·斯特朗",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-05-article-080"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "戴高乐",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-06-article-055"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "organizations": [
+      {
+        "name": "法西斯",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-03-article-031"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "法西斯侵略势力",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-03-article-031"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "法西斯残余势力",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-03-article-031"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "反法西斯同盟国",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-03-article-031"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "name": "苏联人民",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-03-article-031"
+        ],
+        "confidence": 1.0
+      }
+    ]
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-01",
+      "articles": [
+        {
+          "article_id": "mao-volume-01-article-015",
+          "mention_count": 72
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-02",
+      "articles": [
+        {
+          "article_id": "mao-volume-02-article-010",
+          "mention_count": 72
+        },
+        {
+          "article_id": "mao-volume-02-article-015",
+          "mention_count": 72
+        },
+        {
+          "article_id": "mao-volume-02-article-020",
+          "mention_count": 72
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-03",
+      "articles": [
+        {
+          "article_id": "mao-volume-03-article-013",
+          "mention_count": 72
+        },
+        {
+          "article_id": "mao-volume-03-article-014",
+          "mention_count": 72
+        },
+        {
+          "article_id": "mao-volume-03-article-017",
+          "mention_count": 72
+        },
+        {
+          "article_id": "mao-volume-03-article-023",
+          "mention_count": 72
+        },
+        {
+          "article_id": "mao-volume-03-article-027",
+          "mention_count": 72
+        },
+        {
+          "article_id": "mao-volume-03-article-030",
+          "mention_count": 72
+        },
+        {
+          "article_id": "mao-volume-03-article-031",
+          "mention_count": 72
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-04",
+      "articles": [
+        {
+          "article_id": "mao-volume-04-article-013",
+          "mention_count": 72
+        },
+        {
+          "article_id": "mao-volume-04-article-069",
+          "mention_count": 72
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-05",
+      "articles": [
+        {
+          "article_id": "mao-volume-05-article-053",
+          "mention_count": 72
+        },
+        {
+          "article_id": "mao-volume-05-article-062",
+          "mention_count": 72
+        },
+        {
+          "article_id": "mao-volume-05-article-079",
+          "mention_count": 72
+        },
+        {
+          "article_id": "mao-volume-05-article-080",
+          "mention_count": 72
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-06",
+      "articles": [
+        {
+          "article_id": "mao-volume-06-article-055",
+          "mention_count": 72
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-07",
+      "articles": [
+        {
+          "article_id": "mao-volume-07-article-067",
+          "mention_count": 72
+        },
+        {
+          "article_id": "mao-volume-07-article-085",
+          "mention_count": 72
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 72,
+    "total_articles": 20,
+    "total_volumes": 7,
+    "related_persons": 15,
+    "related_organizations": 5
+  },
+  "confidence": 1.0,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

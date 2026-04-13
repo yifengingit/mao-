@@ -1,0 +1,64 @@
+{
+  "archive_id": "archive-place-0031",
+  "archive_type": "place_archive",
+  "name": "德国",
+  "aliases": [
+    "德"
+  ],
+  "summary": "",
+  "attributes": {
+    "place_type": "国家",
+    "modern_name": "德国"
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-01",
+      "articles": [
+        {
+          "article_id": "mao-volume-01-article-018"
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-02",
+      "articles": [
+        {
+          "article_id": "mao-volume-02-article-015"
+        },
+        {
+          "article_id": "mao-volume-02-article-022"
+        },
+        {
+          "article_id": "mao-volume-02-article-026"
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-03",
+      "articles": [
+        {
+          "article_id": "mao-volume-03-article-005"
+        },
+        {
+          "article_id": "mao-volume-03-article-014"
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-04",
+      "articles": [
+        {
+          "article_id": "mao-volume-04-article-045"
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 10,
+    "total_articles": 7,
+    "total_volumes": 4
+  },
+  "confidence": 1.0,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

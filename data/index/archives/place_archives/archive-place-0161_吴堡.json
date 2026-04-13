@@ -1,0 +1,29 @@
+{
+  "archive_id": "archive-place-0161",
+  "archive_type": "place_archive",
+  "name": "吴堡",
+  "aliases": [],
+  "summary": "",
+  "attributes": {
+    "place_type": "县",
+    "modern_name": "吴堡县"
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-03",
+      "articles": [
+        {
+          "article_id": "mao-volume-03-article-017"
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 1,
+    "total_articles": 1,
+    "total_volumes": 1
+  },
+  "confidence": 0.9,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

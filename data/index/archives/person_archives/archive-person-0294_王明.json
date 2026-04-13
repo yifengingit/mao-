@@ -1,0 +1,212 @@
+{
+  "archive_id": "archive-person-0294",
+  "archive_type": "person_archive",
+  "name": "王明",
+  "aliases": [],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "中国共产党早期领导人",
+      "右倾机会主义路线代表",
+      "左倾机会主义路线代表",
+      "政治家",
+      "革命家"
+    ],
+    "affiliations": [
+      "中国共产党"
+    ]
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "陈独秀",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-05-article-062"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "张国焘",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-05-article-062"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "高岗",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-05-article-062"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "共产党",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-05-article-062"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "中国共产党",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-05-article-064",
+          "mao-volume-07-article-006"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "瞿秋白",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-05-article-064",
+          "mao-volume-07-article-059"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "name": "李立三",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-05-article-064",
+          "mao-volume-07-article-059"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "name": "斯大林",
+        "relation_type": "leader_of",
+        "source_articles": [
+          "mao-volume-06-article-006"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "毛泽东",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-06-article-021",
+          "mao-volume-07-article-005"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "鲁迅",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-07-article-005"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "博古",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-07-article-040"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "name": "张闻天",
+        "relation_type": "colleague_of",
+        "source_articles": [
+          "mao-volume-07-article-040"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "organizations": [
+      {
+        "name": "主观主义",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-05-article-042"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "name": "中央文革小组",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-07-article-031"
+        ],
+        "confidence": 0.7
+      }
+    ]
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-05",
+      "articles": [
+        {
+          "article_id": "mao-volume-05-article-042",
+          "mention_count": 17
+        },
+        {
+          "article_id": "mao-volume-05-article-062",
+          "mention_count": 17
+        },
+        {
+          "article_id": "mao-volume-05-article-063",
+          "mention_count": 17
+        },
+        {
+          "article_id": "mao-volume-05-article-064",
+          "mention_count": 17
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-06",
+      "articles": [
+        {
+          "article_id": "mao-volume-06-article-006",
+          "mention_count": 17
+        },
+        {
+          "article_id": "mao-volume-06-article-021",
+          "mention_count": 17
+        }
+      ]
+    },
+    {
+      "volume_id": "mao-volume-07",
+      "articles": [
+        {
+          "article_id": "mao-volume-07-article-005",
+          "mention_count": 17
+        },
+        {
+          "article_id": "mao-volume-07-article-006",
+          "mention_count": 17
+        },
+        {
+          "article_id": "mao-volume-07-article-031",
+          "mention_count": 17
+        },
+        {
+          "article_id": "mao-volume-07-article-040",
+          "mention_count": 17
+        },
+        {
+          "article_id": "mao-volume-07-article-059",
+          "mention_count": 17
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 17,
+    "total_articles": 11,
+    "total_volumes": 3,
+    "related_persons": 12,
+    "related_organizations": 2
+  },
+  "confidence": 1.0,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}

@@ -1,0 +1,54 @@
+{
+  "source_pdf": "data/raw/books/毛泽东选集(毛选1-7原版五卷+静火+赤旗+草堂) (毛泽东) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+  "volumes": [
+    {
+      "volume_id": "mao-volume-01",
+      "title": "毛泽东选集 第一卷",
+      "start_page": 17,
+      "end_page": 207,
+      "notes": "Candidate range confirmed by user from PDF outline; page 17 starts volume 1 and page 207 starts volume 2."
+    },
+    {
+      "volume_id": "mao-volume-02",
+      "title": "毛泽东选集 第二卷",
+      "start_page": 208,
+      "end_page": 464,
+      "notes": "Candidate range confirmed from PDF outline and extracted page checks; page 208 is the volume 2 title page and page 465 starts volume 3."
+    },
+    {
+      "volume_id": "mao-volume-03",
+      "title": "毛泽东选集 第三卷",
+      "start_page": 465,
+      "end_page": 649,
+      "notes": "Candidate range confirmed from PDF outline and extracted page checks; page 465 is the volume 3 title page and page 650 starts volume 4."
+    },
+    {
+      "volume_id": "mao-volume-04",
+      "title": "毛泽东选集 第四卷",
+      "start_page": 650,
+      "end_page": 884,
+      "notes": "Candidate range confirmed from extracted page checks; page 650 is the volume 4 header page and page 885 starts volume 5."
+    },
+    {
+      "volume_id": "mao-volume-05",
+      "title": "毛泽东选集 第五卷",
+      "start_page": 885,
+      "end_page": 1185,
+      "notes": "Candidate range confirmed from extracted page checks; page 885 is the volume 5 header page and page 1186 starts the Jinghuo edition of volume 6."
+    },
+    {
+      "volume_id": "mao-volume-06",
+      "title": "毛泽东选集 第六卷（静火版）",
+      "start_page": 1186,
+      "end_page": 1491,
+      "notes": "Candidate range confirmed from extracted page checks; page 1186 is the Jinghuo edition volume 6 header page and page 1492 starts the Jinghuo edition volume 7."
+    },
+    {
+      "volume_id": "mao-volume-07",
+      "title": "毛泽东选集 第七卷（静火版）",
+      "start_page": 1492,
+      "end_page": 1807,
+      "notes": "Candidate range confirmed from extracted page checks; page 1492 is the Jinghuo edition volume 7 header page and page 1808 starts a separate Runzhi Chiqi edition block, so the current 1-7 mainline stops at page 1807."
+    }
+  ]
+}

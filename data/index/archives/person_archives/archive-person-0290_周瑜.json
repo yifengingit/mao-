@@ -1,0 +1,58 @@
+{
+  "archive_id": "archive-person-0290",
+  "archive_type": "person_archive",
+  "name": "周瑜",
+  "aliases": [],
+  "summary": "",
+  "attributes": {
+    "roles": [
+      "军事家"
+    ],
+    "affiliations": [
+      "三国时期东吴"
+    ]
+  },
+  "related_entities": {
+    "persons": [
+      {
+        "name": "程普",
+        "relation_type": "opposed_to",
+        "source_articles": [
+          "mao-volume-05-article-039"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "organizations": [
+      {
+        "name": "东吴",
+        "relation_type": "member_of",
+        "source_articles": [
+          "mao-volume-05-article-039"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "references": [
+    {
+      "volume_id": "mao-volume-05",
+      "articles": [
+        {
+          "article_id": "mao-volume-05-article-039",
+          "mention_count": 2
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_mentions": 2,
+    "total_articles": 1,
+    "total_volumes": 1,
+    "related_persons": 1,
+    "related_organizations": 1
+  },
+  "confidence": 1.0,
+  "created_at": "2026-04-13T08:53:13Z",
+  "updated_at": "2026-04-13T08:53:13Z"
+}
